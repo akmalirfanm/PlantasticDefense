@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using PD.PoolingSystem;
+using Plantastic.Module_PoolingSystem;
 
 //  scirpt ini dimasukan ke dalam prefab
 public class PeluruObject : PoolObject
