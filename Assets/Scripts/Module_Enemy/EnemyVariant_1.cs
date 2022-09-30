@@ -4,32 +4,32 @@ using UnityEngine;
 
 namespace Plantastic.Module_Enemy
 {
-    public class EnemyBasic : BaseEnemy
+    public class EnemyVariant_1 : BaseEnemy
     {
         [SerializeField]
         ResourceHandle handle;
 
         [SerializeField]
-        private int basicSpeed;
+        private int variant1Speed;
         [SerializeField]
-        private int basicHP;
+        private int variant1HP;
         [SerializeField]
-        private int basicResource;
+        private int variant1Resource;
         protected override void Start()
         {
             base.Start();
-            speed += basicSpeed;
-            hp += basicHP;
+            speed += variant1Speed;
+            hp += variant1HP;
         }
         public override void OnDamage()
         {
             if (Input.GetMouseButtonDown(0))
             {
-                basicHP -= 1;
-                if (basicHP == 0)
+                variant1HP -= 1;
+                if (variant1HP == 0)
                 {
                     gameObject.SetActive(false);
-                    handle.AddResource(basicResource);
+                    handle.AddResource(variant1Resource);
                     Debug.Log(handle.resource);
                 }
             }

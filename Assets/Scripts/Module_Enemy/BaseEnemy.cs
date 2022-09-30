@@ -1,16 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 namespace Plantastic.Module_Enemy
 {
-    public abstract class BaseEnemy : MonoBehaviour
+    public abstract class BaseEnemy : MonoBehaviour, IDamageable
     {
-        protected int hp = 1;
-
-        [SerializeField]
+        protected int hp;
         protected int speed;
-        protected int resource = 30;
+        protected int resource = 0;
 
         protected Transform target;
         protected int waypointIndex = 0;
@@ -36,6 +35,7 @@ namespace Plantastic.Module_Enemy
         protected virtual void Update()
         {
             Move();
+            OnDamage();
         }
         private void GetNextWaypoint()
         {
@@ -48,6 +48,8 @@ namespace Plantastic.Module_Enemy
             waypointIndex++;
             target = _wayPoints.waypoints[waypointIndex];
         }
+
+        public abstract void OnDamage();
     }
 }
 
