@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 164680989026487808}
   - component: {fileID: 1520506886837940080}
   - component: {fileID: 7927058190297583010}
+  - component: {fileID: 886818791973769747}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -97,3 +98,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &886818791973769747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3643601061278633699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b356b1d5d07dfb46aedd60e45a70e88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _wayPoints: {fileID: 1415536559324381648, guid: 48689748c455bd344897ac5539c75d2c, type: 3}
+  handle: {fileID: 0}
+  basicSpeed: 10
+  basicHP: 2
+  basicResource: 30
