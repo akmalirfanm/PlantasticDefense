@@ -9,6 +9,8 @@ namespace Plantastic.Module_TowerShop
         [HideInInspector]
         public bool isFull; 
         public Vector3 offsetPos;
+        
+        private GameObject _tower;
 
         public void BuildTower(GameObject tower)
         {
@@ -17,7 +19,7 @@ namespace Plantastic.Module_TowerShop
                 Debug.LogWarning("This Place alredy have tower");
                 return;
             }
-            GameObject _tower = Instantiate(tower, transform.position + offsetPos, Quaternion.identity);
+            _tower = Instantiate(tower, transform.position + offsetPos, Quaternion.identity);
             isFull = true;
         }
     }

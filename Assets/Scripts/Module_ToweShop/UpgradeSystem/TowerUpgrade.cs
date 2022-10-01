@@ -4,8 +4,21 @@ using UnityEngine;
 
 namespace Plantastic.Module_TowerShop
 {
-    public class TowerShopUI : MonoBehaviour
+    public class TowerUpgrade : MonoBehaviour
     {
+        [SerializeField]
+        private GameObject upgradePanel;
+
+
+        private void Update()
+        {
+            if(Input.GetMouseButtonDown(0))
+            {
+                CheckClickTower();
+            }
+
+        }
+
         void CheckClickTower()
         {
             Camera mainCamera = Camera.main;
@@ -15,18 +28,17 @@ namespace Plantastic.Module_TowerShop
                 ITowerClicked _click = click.collider.GetComponent<ITowerClicked>();
                 if (_click != null)
                 {
-                    _click.TowerClicked();
+                    _click.StartTowerClicked();
+                    Debug.Log("Tower " + click.collider.gameObject.name + " Clicked");
+                    //upgradePanel.SetActive(true);
                 }
                 else
                 {
-
+                    Debug.Log("null");
                 }
             }
         }
-        private void Update()
-        {
-            CheckClickTower();
-        }
+
     }
 
 } 
