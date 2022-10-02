@@ -153,9 +153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   peluru:
-  - peluruPref: {fileID: 1034393969148230809, guid: 75ae4210fcf79b74a913edf5befec4bf, type: 3}
+  - peluruPref: {fileID: 1133330770081397715, guid: 75ae4210fcf79b74a913edf5befec4bf, type: 3}
   - peluruPref: {fileID: 492463455651743688, guid: dbd3045708a9ca54aa807cec2e91e98d, type: 3}
-  - peluruPref: {fileID: 7694627500510433662, guid: 92880662fab10924d9ea24c15132f3ee, type: 3}
 --- !u!4 &414763935
 Transform:
   m_ObjectHideFlags: 0

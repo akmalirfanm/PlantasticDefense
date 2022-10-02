@@ -7,7 +7,7 @@ using Plantastic.Module_PoolingSystem;
 [System.Serializable]
 public class Peluru
 {
-    public PeluruObject peluruPref;
+    public BasePeluru peluruPref;
     PoolingSystem pool = new PoolingSystem();
     public GameObject CreateObject(Vector3 pos)
     {
