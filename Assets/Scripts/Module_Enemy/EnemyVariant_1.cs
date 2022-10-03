@@ -6,7 +6,6 @@ namespace Plantastic.Module_Enemy
 {
     public class EnemyVariant_1 : BaseEnemy
     {
-        [SerializeField]
         ResourceHandle handle;
 
         [SerializeField]
@@ -20,6 +19,8 @@ namespace Plantastic.Module_Enemy
             base.Start();
             speed += variant1Speed;
             hp += variant1HP;
+
+            handle = FindObjectOfType<ResourceHandle>();
         }
         public override void OnDamage()
         {
@@ -28,11 +29,22 @@ namespace Plantastic.Module_Enemy
                 variant1HP -= 1;
                 if (variant1HP == 0)
                 {
-                    gameObject.SetActive(false);
+                    /*gameObject.SetActive(false);*/
                     handle.AddResource(variant1Resource);
                     Debug.Log(handle.resource);
+                    StoreToPool();
                 }
             }
+        }
+
+        public override void OnCreate()
+        {
+            waypointIndex = 0;
+            target = FindObjectOfType<EnemyWayPoints>().waypoints[0];
+        }
+        public override void StoreToPool()
+        {
+            base.StoreToPool();
         }
     }
 }

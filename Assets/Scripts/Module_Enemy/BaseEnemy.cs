@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Plantastic.Module_PoolingSystem;
 
 namespace Plantastic.Module_Enemy
 {
-    public abstract class BaseEnemy : MonoBehaviour, IDamageable
+    public abstract class BaseEnemy : MonoBehaviour, IDamageable, IPoolObject
     {
         protected int hp;
         protected int speed;
@@ -14,12 +15,11 @@ namespace Plantastic.Module_Enemy
         protected Transform target;
         protected int waypointIndex = 0;
 
-        [SerializeField]
-        protected EnemyWayPoints _wayPoints;
+        public PoolingSystem poolingSystem { private set; get; }
 
         protected virtual void Start()
         {
-            target = _wayPoints.waypoints[0];
+            target = FindObjectOfType<EnemyWayPoints>().waypoints[0];
         }
 
         protected virtual void Move()
@@ -39,17 +39,31 @@ namespace Plantastic.Module_Enemy
         }
         private void GetNextWaypoint()
         {
-            if (waypointIndex >= _wayPoints.waypoints.Length - 1)
+            if (waypointIndex >= FindObjectOfType<EnemyWayPoints>().waypoints.Length - 1)
             {
-                gameObject.SetActive(false);
+                StoreToPool();
+                //gameObject.SetActive(false);
                 return;
             }
 
             waypointIndex++;
-            target = _wayPoints.waypoints[waypointIndex];
+            target = FindObjectOfType<EnemyWayPoints>().waypoints[waypointIndex];
         }
 
         public abstract void OnDamage();
+
+        void IPoolObject.Initial(PoolingSystem poolSystem)
+        {
+            poolingSystem = poolSystem;
+        }
+
+        public abstract void OnCreate();
+
+        public virtual void StoreToPool()
+        {
+            poolingSystem.Store(this);
+            gameObject.SetActive(false);
+        }
     }
 }
 

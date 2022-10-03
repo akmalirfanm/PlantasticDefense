@@ -110,8 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f13bbff5f05c1b4da276da12ab0a082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  _wayPoints: {fileID: 0}
-  variant1Speed: 0
-  variant1HP: 0
-  variant1Resource: 0
+  handle: {fileID: 0}
+  variant1Speed: 20
+  variant1HP: 4
+  variant1Resource: 40

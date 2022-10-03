@@ -6,7 +6,6 @@ namespace Plantastic.Module_Enemy
 {
     public class EnemyWayPoints : MonoBehaviour
     {
-        [SerializeField]
         public Transform[] waypoints;
 
         private void Awake()

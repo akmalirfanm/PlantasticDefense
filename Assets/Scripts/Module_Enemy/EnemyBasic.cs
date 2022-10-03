@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Plantastic.Module_Spawner;
 
 namespace Plantastic.Module_Enemy
 {
     public class EnemyBasic : BaseEnemy
     {
-        [SerializeField]
         ResourceHandle handle;
+
+        [SerializeField]
+        Spawner spawn;
 
         [SerializeField]
         private int basicSpeed;
@@ -20,6 +23,8 @@ namespace Plantastic.Module_Enemy
             base.Start();
             speed += basicSpeed;
             hp += basicHP;
+
+            handle = FindObjectOfType<ResourceHandle>();
         }
         public override void OnDamage()
         {
@@ -28,11 +33,22 @@ namespace Plantastic.Module_Enemy
                 basicHP -= 1;
                 if (basicHP == 0)
                 {
-                    gameObject.SetActive(false);
+                    /*gameObject.SetActive(false);*/
                     handle.AddResource(basicResource);
                     Debug.Log(handle.resource);
+                    StoreToPool();
                 }
             }
+        }
+
+        public override void OnCreate()
+        {
+            waypointIndex = 0;
+            target = FindObjectOfType<EnemyWayPoints>().waypoints[0];
+        }
+        public override void StoreToPool()
+        {
+            base.StoreToPool();
         }
     }
 }

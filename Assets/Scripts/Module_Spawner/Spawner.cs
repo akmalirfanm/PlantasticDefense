@@ -8,36 +8,29 @@ namespace Plantastic.Module_Spawner
 {
     public class Spawner : MonoBehaviour
     {
-        private int enemyAlive;
 
         [SerializeField]
         EnemyControll[] controlls;
 
-        [SerializeField]
-        private Transform spawnPoint;
+        private float delaySpawn = 3f;
+        private float countdown = 1f;
 
-        private float delaySpawn = 5f;
-        private float countdown = 3f;
-
-        private int waveIndex = 0;
+        private int waveIndex = 1;
+		[SerializeField]
+		private int totalWave;
 
 		void Update()
 		{
-			if (enemyAlive > 0)
-			{
-				return;
-			}
 
-			if (waveIndex == controlls.Length)
+			/*if (waveIndex == controlls.Length)
 			{
 				this.enabled = false;
-			}
+			}*/
 
 			if (countdown <= 0f)
 			{
 				StartCoroutine(SpawnWave());
 				countdown = delaySpawn;
-				return;
 			}
 
 			countdown -= Time.deltaTime;
@@ -46,20 +39,40 @@ namespace Plantastic.Module_Spawner
 		}
 		IEnumerator SpawnWave()
         {
-			EnemyControll controll = controlls[waveIndex];
-
-			enemyAlive = controll.count;
-
-			for (int i=0; i<controll.count; i++)
+			if (totalWave >= waveIndex)
             {
-				yield return new WaitForSeconds(1f / controll.rate);
-            }
-			waveIndex++;
+				for (int i = 0; i < waveIndex; i++)
+				{
+					SpawnEnemy();
+					yield return new WaitForSeconds(0.5f);
+				}
+				waveIndex++;
+			}
+			
         }
 		void SpawnEnemy()
         {
+            int _random = Random.Range(0, controlls.Length);
+			int _weakEnemy = Random.Range(0, controlls.Length-2);
+			int _strongEnemy = Random.Range(0, controlls.Length-1);
 
+			if (waveIndex <= 4)
+            {
+				controlls[0].CreateObject(transform.position);
+            }
+			else if (waveIndex <= 8)
+            {
+				controlls[_weakEnemy].CreateObject(transform.position);
+            }
+			else if (waveIndex <= 12)
+			{
+				controlls[_strongEnemy].CreateObject(transform.position);
+			}
+			else
+            {
+				controlls[_random].CreateObject(transform.position);
+			}
         }
-	}
+    }
 
 }
