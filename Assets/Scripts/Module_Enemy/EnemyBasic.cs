@@ -34,6 +34,7 @@ namespace Plantastic.Module_Enemy
                 if (basicHP == 0)
                 {
                     /*gameObject.SetActive(false);*/
+                    EventManager.TriggerEvent("DieMessage");
                     handle.AddResource(basicResource);
                     Debug.Log(handle.resource);
                     StoreToPool();
