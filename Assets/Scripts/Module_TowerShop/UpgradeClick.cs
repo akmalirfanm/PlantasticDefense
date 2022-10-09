@@ -1,33 +1,40 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Plantastic.Module_TowerShop
 {
     public class UpgradeClick : MonoBehaviour
     {
         [SerializeField] private GameObject _upgradePanel;
+        [SerializeField] private Button _overlayButton;
 
-        private ITowerClicked tempClick;
+        private ITowerClicked _tempClick;
+        private bool isAnyTowerClicked;
+
+        private void Awake()
+        {
+            _overlayButton.onClick.AddListener(HideUpgradePanel);
+        }
         private void Start()
         {
-            tempClick = null;
+           _tempClick = null;
         }
         private void Update()
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && !isAnyTowerClicked)
             {
                 if (!CheckClickTower())
                 {
-                    if(tempClick != null)
+                    if (_tempClick != null)
                     {
-                        tempClick.EndTowerClicked();
-                        _upgradePanel.SetActive(false);
+                       _tempClick.EndTowerClicked();
                     }
+                    HideUpgradePanel();
                 }
             }
         }
-
         bool CheckClickTower()
         {
             Camera mainCamera = Camera.main;
@@ -38,15 +45,22 @@ namespace Plantastic.Module_TowerShop
                 if (_click != null)
                 {
                     _click.StartTowerClicked();
-                    tempClick = click.collider.GetComponent<ITowerClicked>();
+                    _tempClick = click.collider.GetComponent<ITowerClicked>();
 
                     _upgradePanel.SetActive(true);
                     TowerManager.Instance.InitialUpgradeData(click.collider.gameObject.transform.position);
+
+                    isAnyTowerClicked = true;
                     return true;
                 }
             }
-            tempClick = null;
+            _tempClick = null;
             return false;
+        }
+        public void HideUpgradePanel()
+        {
+            _upgradePanel.SetActive(false);
+            isAnyTowerClicked = false;
         }
 
     }

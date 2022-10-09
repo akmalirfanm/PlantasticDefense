@@ -6,13 +6,15 @@ namespace Plantastic.Module_TowerShop
 {
     public struct TowerContainer
     {
+        public TowerPlacement towerPlace;
         public GameObject towerObj;
         public Vector3 posTower;
         public int price;
         public int version;
 
-        public TowerContainer(GameObject towerObj, Vector3 posTower, int price, int version)
+        public TowerContainer(TowerPlacement towerPlace, GameObject towerObj, Vector3 posTower, int price, int version)
         {
+            this.towerPlace = towerPlace;
             this.towerObj = towerObj;
             this.posTower = posTower;
             this.price = price;

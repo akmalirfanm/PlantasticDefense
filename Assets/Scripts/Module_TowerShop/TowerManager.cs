@@ -9,10 +9,10 @@ namespace Plantastic.Module_TowerShop
     {
         public static TowerManager Instance;
 
-        [SerializeField] private UpgradeUI _upgradeUI;
+        [SerializeField] private TowerShopUI _shopUI;
+        [SerializeField] private UpgradeClick _upgrade;
 
         List<TowerContainer> towerList = new List<TowerContainer>();
-        List<TowerPlacement> _towerPlace = new List<TowerPlacement>();
 
         private void Awake()
         {
@@ -21,23 +21,33 @@ namespace Plantastic.Module_TowerShop
         }
         private void Start()
         {
-            _towerPlace.AddRange(FindObjectsOfType<TowerPlacement>());
+            var a = FindObjectsOfType<TowerPlacement>();
+            for(int i = 0; i < a.Length; i++)
+            {
+                TowerContainer newTower = new TowerContainer(a[i], null, a[i].transform.position, 0, 0);
+                towerList.Add(newTower);
+            }
+            Resource.Instance.AddResource(400);
         }
 
         #region New Tower
         public void BuildNewTower(GameObject tower, Vector3 pos)
         {
             var r = Resource.Instance;
-            if (!r.IsResourceEnough(tower.GetComponent<BaseTower>().price))
+            if (!r.IsResourceEnough(tower.GetComponent<Tower>().price))
             {
                 return;
             }
-            r.SpentResource(tower.GetComponent<BaseTower>().price);
+            r.SpentResource(tower.GetComponent<Tower>().price);
 
             GameObject _newTower = Instantiate(tower, pos, Quaternion.identity);
-            BaseTower _tower = _newTower.GetComponent<BaseTower>();
-            TowerContainer _towerData = new TowerContainer(_newTower, pos, _tower.price, 1);
-            towerList.Add(_towerData);
+            Tower _baseTower = _newTower.GetComponent<Tower>();
+
+            TowerContainer _tower = towerList.Find(x => (x.posTower.x == pos.x) && (x.posTower.z == pos.z));
+            var i = towerList.IndexOf(_tower);
+            _tower = new(_tower.towerPlace, _newTower, pos, _baseTower.price, 1);
+            towerList[i] = _tower;
+
         }
         #endregion
 
@@ -45,10 +55,10 @@ namespace Plantastic.Module_TowerShop
         public void InitialUpgradeData(Vector3 pos)
         {
             TowerContainer _tower = towerList.Find(x => (x.posTower.x == pos.x) && (x.posTower.z == pos.z));
-
-            _upgradeUI.priceSell = CalculateSellingPrice(_tower.price);
-            _upgradeUI.priceUpgrade = CalculateUpgradePrice(_tower.price);
-            _upgradeUI.posTower = _tower.posTower;
+            
+            _shopUI.priceSell = CalculateSellingPrice(_tower.price);
+            _shopUI.priceUpgrade = CalculateUpgradePrice(_tower.price);
+            _shopUI.posTower = _tower.posTower;
         }
         private int CalculateSellingPrice(int price)
         {
@@ -63,11 +73,13 @@ namespace Plantastic.Module_TowerShop
         public void RemoveTower(Vector3 pos)
         {
             TowerContainer _tower = towerList.Find(x => (x.posTower.x == pos.x) && (x.posTower.z == pos.z));
-            Destroy(_tower.towerObj);
-            towerList.Remove(_tower);
+            var i = towerList.IndexOf(_tower);
+            Destroy(towerList[i].towerObj);
+            _tower = new(_tower.towerPlace, null, pos, _tower.price, 1);
+            towerList[i] = _tower;
 
-            TowerPlacement _place = _towerPlace.Find(x => (x.transform.position.x == pos.x) && (x.transform.position.z == pos.z));
-            _place.isFull = false;
+            _tower.towerPlace.isFull = false;
+            _upgrade.HideUpgradePanel();
         }
         #endregion 
     }

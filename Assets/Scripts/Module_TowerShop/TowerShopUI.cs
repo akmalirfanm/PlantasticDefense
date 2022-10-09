@@ -7,15 +7,20 @@ using Plantastic.Module_Resource;
 
 namespace Plantastic.Module_TowerShop
 {
-    public class UpgradeUI : MonoBehaviour
+    // handle upgrade, buy UI
+    public class TowerShopUI : MonoBehaviour
     {
+        [Header("Upgrade")]
         [SerializeField] private Button _upButton;
         [SerializeField] private Button _sellButton;
-        [SerializeField] private TextMeshProUGUI _upText;
-        [SerializeField] private TextMeshProUGUI _sellText;
+        [SerializeField] private TextMeshProUGUI _resourceText;
+        
+        private TextMeshProUGUI _upText;
+        private TextMeshProUGUI _sellText;
 
-        [HideInInspector] public int priceSell;
         [HideInInspector] public int priceUpgrade;
+        [HideInInspector] public int priceSell; 
+
         [HideInInspector] public Vector3 posTower;
 
         private void Awake()
@@ -24,6 +29,16 @@ namespace Plantastic.Module_TowerShop
             _upButton.onClick.AddListener(UpButton);
             _sellButton.onClick.RemoveAllListeners();
             _sellButton.onClick.AddListener(SellButton);
+
+            _upText = _upButton.GetComponentInChildren<TextMeshProUGUI>();
+            _sellText = _sellButton.GetComponentInChildren<TextMeshProUGUI>();
+        }
+
+        private void Update()
+        {
+            _resourceText.text = Resource.Instance._totalResource.ToString();
+            _upText.text = "up : " + priceUpgrade.ToString();
+            _sellText.text = "sell : " + priceSell.ToString();
         }
         private void OnDestroy()
         {
@@ -45,4 +60,3 @@ namespace Plantastic.Module_TowerShop
         }
     }
 }
-

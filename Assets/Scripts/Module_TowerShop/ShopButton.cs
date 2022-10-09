@@ -2,18 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using TMPro;
 
 namespace Plantastic.Module_TowerShop
 {
     public class ShopButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
     {
-        [SerializeField] GameObject towerPref;
-        [SerializeField] LayerMask placeLayer;
-        [SerializeField] string tagTowerPlacement = "TowerPlacement";
+        [SerializeField] private GameObject towerPref;
+        [SerializeField] private LayerMask placeLayer;
+        [SerializeField] private string tagTowerPlacement = "TowerPlacement";
 
+        private TextMeshProUGUI priceText; 
         private bool isRightPlace;
         private TowerPlacement _towerPlace;
         private GameObject _currentTowerToBuild;
+
+        private void Awake()
+        {
+            priceText = GetComponentInChildren<TextMeshProUGUI>();
+            priceText.text = towerPref.GetComponent<Tower>().price.ToString();
+        }
 
         public void OnBeginDrag(PointerEventData eventData)
         {
