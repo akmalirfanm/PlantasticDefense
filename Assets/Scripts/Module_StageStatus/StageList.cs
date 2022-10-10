@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-namespace Plantastic.Module_StageList
+[CreateAssetMenu]
+public class StageList : ScriptableObject
 {
-    public class StageList : MonoBehaviour
-    {
+    public Stage[] stage;
+}
 
-    }
+[System.Serializable]
+public class Stage
+{
+    public bool unlocked;
 }
