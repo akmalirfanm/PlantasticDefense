@@ -26,8 +26,8 @@ namespace Plantastic.Module_Enemy
         {
             if (Input.GetMouseButtonDown(0))
             {
-                variant3HP -= 1;
-                if (variant3HP == 0)
+                hp -= 1;
+                if (hp <= 0)
                 {
                     /*gameObject.SetActive(false);*/
                     StoreToPool();
@@ -45,6 +45,7 @@ namespace Plantastic.Module_Enemy
         public override void StoreToPool()
         {
             base.StoreToPool();
+            hp = variant3HP;
         }
     }
 }
