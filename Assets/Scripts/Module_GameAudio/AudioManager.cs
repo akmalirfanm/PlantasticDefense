@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using Plantastic.Module_GameSetting;
 
 namespace Plantastic.Module_GameAudio
 {
@@ -110,7 +111,8 @@ namespace Plantastic.Module_GameAudio
         }
         private void Update()
         {
-            
+            _bgmSource.mute = !GameSetting.instance.isBgmOn;
+            _sfxSource.mute = !GameSetting.instance.isSfxOn;
         }
         public void PlaySfx(AudioClip clip)
         {
