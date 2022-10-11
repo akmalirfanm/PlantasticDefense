@@ -16,6 +16,7 @@ namespace Plantastic.Module_TowerShop
         private bool isRightPlace;
         private TowerPlacement _towerPlace;
         private GameObject _currentTowerToBuild;
+        
 
         private void Awake()
         {

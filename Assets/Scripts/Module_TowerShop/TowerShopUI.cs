@@ -33,12 +33,12 @@ namespace Plantastic.Module_TowerShop
             _upText = _upButton.GetComponentInChildren<TextMeshProUGUI>();
             _sellText = _sellButton.GetComponentInChildren<TextMeshProUGUI>();
         }
-
         private void Update()
         {
             _resourceText.text = Resource.Instance._totalResource.ToString();
             _upText.text = "up : " + priceUpgrade.ToString();
             _sellText.text = "sell : " + priceSell.ToString();
+
         }
         private void OnDestroy()
         {
@@ -58,5 +58,7 @@ namespace Plantastic.Module_TowerShop
             TowerManager.Instance.RemoveTower(posTower);
             Resource.Instance.AddResource(priceSell);
         }
+
+        
     }
 }
