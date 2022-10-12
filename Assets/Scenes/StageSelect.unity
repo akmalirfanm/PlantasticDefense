@@ -509,17 +509,21 @@ MonoBehaviour:
       unlocked: 1
     - name: Stage2
       unlocked: 0
-    - name: Stage3
+    - name: Stage2
+      unlocked: 1
+    - name: Stage2
       unlocked: 0
-    - name: Stage4
+    - name: Stage2
       unlocked: 0
-    - name: Stage5
+    - name: Stage2
       unlocked: 1
-    - name: Stage6
+    - name: Stage2
+      unlocked: 0
+    - name: Stage2
       unlocked: 1
-    - name: Stage7
-      unlocked: 1
-    - name: Stage8
+    - name: Stage2
+      unlocked: 0
+    - name: Stage2
       unlocked: 0
 --- !u!4 &1334809621
 Transform:
@@ -550,7 +554,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stageListParent: {fileID: 1004387383}
   stageButton: {fileID: 5510698130015458742, guid: d0557f8dda4e5bd42ab5a7d013a195b6, type: 3}
-  stageButtonContainer: []
 --- !u!1 &1642125278
 GameObject:
   m_ObjectHideFlags: 0

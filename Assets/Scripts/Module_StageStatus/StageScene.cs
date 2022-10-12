@@ -14,14 +14,15 @@ namespace Plantastic.Module_StageStatus
 
         private GameObject[] stageButtonContainer;
 
-        private void Start()
+        void Start()
         {
             var l = StageStatus.Instance.stageData.stage;
             stageButtonContainer = new GameObject[l.Length];
             for (int i = 0; i < l.Length; i++)
             {
                 stageButtonContainer[i] = Instantiate(stageButton, stageListParent);
-                stageButtonContainer[i].GetComponent<Button>().onClick.AddListener(() => Listener(l[i].name));
+                string stage = l[i].name;
+                stageButtonContainer[i].GetComponent<Button>().onClick.AddListener(()=> Listener(stage));
                 stageButtonContainer[i].GetComponentInChildren<TextMeshProUGUI>().text = l[i].name;
 
                 if (!l[i].unlocked)

@@ -23,7 +23,7 @@ namespace Plantastic.Module_StageStatus
             {
                 DataToSave();
             }
-            //PlayerPrefs.DeleteAll();
+            
         }
         public void DataToSave()
         {
