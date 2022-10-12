@@ -5,33 +5,35 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-
-public class StageScene : MonoBehaviour
+namespace Plantastic.Module_StageStatus
 {
-    [SerializeField] Transform stageListParent;
-    [SerializeField] GameObject stageButton;
-
-    private GameObject[] stageButtonContainer;
-
-    private void Start()
+    public class StageScene : MonoBehaviour
     {
-        var l = StageStatus.Instance.stageData.stage;
-        stageButtonContainer = new GameObject[l.Length];
-        for(int i = 0; i < l.Length; i++)
-        {
-            int j = i + 1;
-            stageButtonContainer[i] = Instantiate(stageButton, stageListParent);
-            stageButtonContainer[i].GetComponent<Button>().onClick.AddListener(()=>Listener(j));
-            stageButtonContainer[i].GetComponentInChildren<TextMeshProUGUI>().text = "Stage " + j;
+        [SerializeField] Transform stageListParent;
+        [SerializeField] GameObject stageButton;
 
-            if(!l[i].unlocked)
+        private GameObject[] stageButtonContainer;
+
+        private void Start()
+        {
+            var l = StageStatus.Instance.stageData.stage;
+            stageButtonContainer = new GameObject[l.Length];
+            for (int i = 0; i < l.Length; i++)
             {
-                stageButtonContainer[i].GetComponent<Button>().interactable = false;
+                stageButtonContainer[i] = Instantiate(stageButton, stageListParent);
+                stageButtonContainer[i].GetComponent<Button>().onClick.AddListener(() => Listener(l[i].name));
+                stageButtonContainer[i].GetComponentInChildren<TextMeshProUGUI>().text = l[i].name;
+
+                if (!l[i].unlocked)
+                {
+                    stageButtonContainer[i].GetComponent<Button>().interactable = false;
+                }
             }
         }
-    }
-    void Listener(int i)
-    {
-        SceneManager.LoadScene("Stage " + i);
+        void Listener(string nameStage)
+        {
+            SceneManager.LoadScene(nameStage);
+        }
     }
 }
+

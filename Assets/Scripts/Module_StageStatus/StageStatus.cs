@@ -2,30 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StageStatus : MonoBehaviour
+namespace Plantastic.Module_StageStatus
 {
-    public static StageStatus Instance;
-
-    public StageList stageData;
-
-
-    private void Awake()
+    public class StageStatus : MonoBehaviour
     {
-        if (Instance == null)
-            Instance = this;
-        LoadDataFromScripObj() ;
-    }
+        public static StageStatus Instance;
 
-    public void UnlockStage(int indexStage)
-    {
-        PlayerPrefs.SetString("stage " + indexStage, "true");
-        stageData.stage[indexStage - 1].unlocked = true;
-    }
-    public void LoadDataFromScripObj()
-    {
-        for (int i = 1; i <= stageData.stage.Length; i++)
+        public StageList stageData;
+
+        private void Awake()
         {
-            PlayerPrefs.SetString("stage " + i, stageData.stage[i - 1].unlocked.ToString().ToLower());
+            if (Instance == null)
+                Instance = this;
+            DontDestroyOnLoad(gameObject);
+            if (PlayerPrefs.HasKey("Stage Data"))
+            {
+                LoadData();
+            }
+            else
+            {
+                DataToSave();
+            }
+            //PlayerPrefs.DeleteAll();
+        }
+        public void DataToSave()
+        {
+            PlayerPrefs.SetString("Stage Data", JsonUtility.ToJson(stageData));
+        }
+        public void LoadData()
+        {
+            stageData = JsonUtility.FromJson<StageList>(PlayerPrefs.GetString("Stage Data"));
         }
     }
 }

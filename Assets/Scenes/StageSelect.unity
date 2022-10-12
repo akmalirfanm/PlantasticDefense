@@ -503,7 +503,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e36e25f77068b84b8a01bffa696678b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stageData: {fileID: 11400000, guid: 6bee6b9797b343d40917a87def09c38c, type: 2}
+  stageData:
+    stage:
+    - name: Stage1
+      unlocked: 1
+    - name: Stage2
+      unlocked: 0
+    - name: Stage3
+      unlocked: 0
+    - name: Stage4
+      unlocked: 0
+    - name: Stage5
+      unlocked: 1
+    - name: Stage6
+      unlocked: 1
+    - name: Stage7
+      unlocked: 1
+    - name: Stage8
+      unlocked: 0
 --- !u!4 &1334809621
 Transform:
   m_ObjectHideFlags: 0
@@ -533,6 +550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stageListParent: {fileID: 1004387383}
   stageButton: {fileID: 5510698130015458742, guid: d0557f8dda4e5bd42ab5a7d013a195b6, type: 3}
+  stageButtonContainer: []
 --- !u!1 &1642125278
 GameObject:
   m_ObjectHideFlags: 0
