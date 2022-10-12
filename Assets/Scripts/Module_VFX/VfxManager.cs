@@ -10,26 +10,31 @@ namespace Plantastic.Module_VFX
         [SerializeField]
         private Vfx[] visualEffect;
 
+        string nameOfVfx;
+
         private void Start()
         {
-            EventManager.TriggerEvent("OnPlayVFX", data);
-        }
 
+        }
         private void OnEnable()
         {
-            EventManager.StartListening("OnPlayVFX", PlayVfx);
+            EventManager.StartListening("OnPlayVfxName", VfxName);
+            EventManager.StartListening("OnPlayVfxPos", PlayVfx);
         }
         private void OnDisable()
         {
-            EventManager.StopListening("OnPlayVFX", PlayVfx);
+            EventManager.StopListening("OnPlayVfxName", VfxName);
+            EventManager.StopListening("OnPlayVfxPos", PlayVfx);
         }
-        public void PlayVfx(object nameVfx, object pos)
+        void VfxName(object name)
         {
-            nameVfx = (string)nameVfx;
+            nameOfVfx = (string)name;
+        }
+        void PlayVfx(object pos)
+        {
             pos = (Vector3)pos;
-            Vfx v = Array.Find(visualEffect, vfx => vfx.visualPref.name == nameVfx);
-            //Instantiate(v.visualPref, message.position, Quaternion.identity);
-            v.CreateObject(pos).transform.SetParent(this.transform);
+            Vfx v = Array.Find(visualEffect, vfx => vfx.visualPref.name == nameOfVfx);
+            v.CreateObject((Vector3)pos).transform.SetParent(this.transform);
         }
     }
 }

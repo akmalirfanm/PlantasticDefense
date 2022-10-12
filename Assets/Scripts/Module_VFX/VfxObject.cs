@@ -10,7 +10,7 @@ namespace Plantastic.Module_VFX
     {
         public override void OnCreate()
         {
-            Invoke("StoreToPool", 3f);
+            Invoke("StoreToPool", 5f);
         }
         public override void StoreToPool()
         {
