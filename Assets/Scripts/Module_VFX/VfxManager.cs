@@ -10,6 +10,10 @@ namespace Plantastic.Module_VFX
         [SerializeField]
         private Vfx[] visualEffect;
 
+        private void Start()
+        {
+            EventManager.TriggerEvent("OnPlayVFX", data);
+        }
 
         private void OnEnable()
         {
@@ -19,7 +23,7 @@ namespace Plantastic.Module_VFX
         {
             EventManager.StopListening("OnPlayVFX", PlayVfx);
         }
-        void PlayVfx(object nameVfx, object pos)
+        public void PlayVfx(object nameVfx, object pos)
         {
             nameVfx = (string)nameVfx;
             pos = (Vector3)pos;
