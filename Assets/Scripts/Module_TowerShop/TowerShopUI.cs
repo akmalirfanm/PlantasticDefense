@@ -36,9 +36,6 @@ namespace Plantastic.Module_TowerShop
         private void Update()
         {
             _resourceText.text = Resource.Instance._totalResource.ToString();
-            _upText.text = "up : " + priceUpgrade.ToString();
-            _sellText.text = "sell : " + priceSell.ToString();
-
         }
         private void OnDestroy()
         {
@@ -47,10 +44,13 @@ namespace Plantastic.Module_TowerShop
         }
         void UpButton()
         {
+            if(!TowerManager.Instance.UpgradeSetData(posTower))
+            {
+                return;
+            }
             var r = Resource.Instance;
             if (!r.IsResourceEnough(priceUpgrade))
                 return;
-
             r.SpentResource(priceUpgrade);
         }
         void SellButton()
@@ -58,7 +58,15 @@ namespace Plantastic.Module_TowerShop
             TowerManager.Instance.RemoveTower(posTower);
             Resource.Instance.AddResource(priceSell);
         }
+        public void SetUpText(bool max)
+        {
+            if (max == true)
+                _upText.text = "Max Level";
+            else 
+                _upText.text = "up : " + priceUpgrade.ToString();
 
+            _sellText.text = "sell : " + priceSell.ToString();
+        }
         
     }
 }

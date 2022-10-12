@@ -1926,6 +1926,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2048622882}
     m_Modifications:
     - target: {fileID: 6643385423145604457, guid: 41277ea65e4d1ca4886fb8f25ca7fa6b, type: 3}
+      propertyPath: towerData
+      value: 
+      objectReference: {fileID: 11400000, guid: 6774e9d0dde678549ad7d5df76c49d9a, type: 2}
+    - target: {fileID: 6643385423145604457, guid: 41277ea65e4d1ca4886fb8f25ca7fa6b, type: 3}
       propertyPath: towerPref
       value: 
       objectReference: {fileID: 2914909483364497820, guid: a786f4bf00b67ae4298fc488982e484b, type: 3}
@@ -2141,6 +2145,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2048622882}
     m_Modifications:
+    - target: {fileID: 6643385423145604457, guid: 41277ea65e4d1ca4886fb8f25ca7fa6b, type: 3}
+      propertyPath: towerData
+      value: 
+      objectReference: {fileID: 11400000, guid: 6774e9d0dde678549ad7d5df76c49d9a, type: 2}
     - target: {fileID: 6643385423145604457, guid: 41277ea65e4d1ca4886fb8f25ca7fa6b, type: 3}
       propertyPath: towerPref
       value: 
@@ -2432,6 +2440,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2048622882}
     m_Modifications:
+    - target: {fileID: 6643385423145604457, guid: 41277ea65e4d1ca4886fb8f25ca7fa6b, type: 3}
+      propertyPath: towerData
+      value: 
+      objectReference: {fileID: 11400000, guid: 6774e9d0dde678549ad7d5df76c49d9a, type: 2}
     - target: {fileID: 6643385423145604457, guid: 41277ea65e4d1ca4886fb8f25ca7fa6b, type: 3}
       propertyPath: towerPref
       value: 

@@ -24,64 +24,100 @@ namespace Plantastic.Module_TowerShop
             var a = FindObjectsOfType<TowerPlacement>();
             for(int i = 0; i < a.Length; i++)
             {
-                TowerContainer newTower = new TowerContainer(a[i], null, a[i].transform.position, 0, 0);
+                TowerContainer newTower = new TowerContainer(null,a[i], null, a[i].transform.position, 0);
                 towerList.Add(newTower);
             }
-            Resource.Instance.AddResource(400);
+            Resource.Instance.AddResource(599);
         }
 
         #region New Tower
-        public void BuildNewTower(GameObject tower, Vector3 pos)
+        public void BuildNewTower(GameObject tower, Vector3 pos, TowerDataSet towerData)
         {
             var r = Resource.Instance;
-            if (!r.IsResourceEnough(tower.GetComponent<Tower>().price))
+            if (!r.IsResourceEnough(towerData.version[0].price))
             {
                 return;
             }
-            r.SpentResource(tower.GetComponent<Tower>().price);
+            r.SpentResource(towerData.version[0].price);
 
             GameObject _newTower = Instantiate(tower, pos, Quaternion.identity);
-            Tower _baseTower = _newTower.GetComponent<Tower>();
+            SetDataTower(pos, towerData, _newTower);
 
             TowerContainer _tower = towerList.Find(x => (x.posTower.x == pos.x) && (x.posTower.z == pos.z));
-            var i = towerList.IndexOf(_tower);
-            _tower = new(_tower.towerPlace, _newTower, pos, _baseTower.price, 1);
+            int i = towerList.IndexOf(_tower);
+            
+            _tower = new(towerData, _tower.towerPlace, _newTower, pos, 1);
             towerList[i] = _tower;
-
         }
         #endregion
 
-        #region Upgrade Tower
         public void InitialUpgradeData(Vector3 pos)
         {
             TowerContainer _tower = towerList.Find(x => (x.posTower.x == pos.x) && (x.posTower.z == pos.z));
-            
-            _shopUI.priceSell = CalculateSellingPrice(_tower.price);
-            _shopUI.priceUpgrade = CalculateUpgradePrice(_tower.price);
-            _shopUI.posTower = _tower.posTower;
+            int i = towerList.IndexOf(_tower);
+
+            // set properties upgrade UI
+            var v = towerList[i].towerData.version;
+            _shopUI.priceSell = v[towerList[i].currentVersion-1].priceSell;
+            _shopUI.posTower = towerList[i].posTower;
+            if(v.Length <= towerList[i].currentVersion)
+            {
+                _shopUI.SetUpText(true);
+                return;
+            }
+            _shopUI.priceUpgrade = v[towerList[i].currentVersion].price;
+            _shopUI.SetUpText(false);
         }
-        private int CalculateSellingPrice(int price)
-        {
-            price = Mathf.RoundToInt(price - (price * 50 / 100));
-            return price;
-        }
-        public int CalculateUpgradePrice(int price)
-        {
-            price = Mathf.RoundToInt(price + (price * 50 / 100));
-            return price;
-        }
+
+        #region Set Data Tower
         public void RemoveTower(Vector3 pos)
         {
             TowerContainer _tower = towerList.Find(x => (x.posTower.x == pos.x) && (x.posTower.z == pos.z));
-            var i = towerList.IndexOf(_tower);
+            int i = towerList.IndexOf(_tower);
             Destroy(towerList[i].towerObj);
-            _tower = new(_tower.towerPlace, null, pos, _tower.price, 1);
             towerList[i] = _tower;
 
             _tower.towerPlace.isFull = false;
             _upgrade.HideUpgradePanel();
         }
-        #endregion 
+
+        void SetDataTower(Vector3 pos, TowerDataSet data, GameObject towerObj)
+        {
+            // find the tower 
+            TowerContainer _tower = towerList.Find(x => (x.posTower.x == pos.x) && (x.posTower.z == pos.z));
+            int i = towerList.IndexOf(_tower);
+
+            // replace data container tower
+            _tower = new(data, _tower.towerPlace, towerObj, pos, _tower.currentVersion + 1);
+
+            // set properties tower it selft
+            var d = data.version[_tower.currentVersion - 1];
+            var t = _tower.towerObj.GetComponent<Tower>();
+            t.fireRate = d.fireRate;
+            t.rangeShoot = d.rangeShoot;
+            t.damagePower = d.damagePower;
+            
+            //restore data to tower list
+            towerList[i] = _tower;
+
+            InitialUpgradeData(pos);
+        }
+ 
+        public bool UpgradeSetData(Vector3 pos)
+        {
+            TowerContainer _tower = towerList.Find(x => (x.posTower.x == pos.x) && (x.posTower.z == pos.z));
+            int i = towerList.IndexOf(_tower);
+            var t = towerList[i];
+
+            if (_tower.currentVersion >= t.towerData.version.Length)
+            {
+                Debug.Log("Alredy Max Version");
+                return false;
+            }
+            SetDataTower(pos, t.towerData, t.towerObj);
+            return true;
+        }
+        #endregion
     }
 }
 

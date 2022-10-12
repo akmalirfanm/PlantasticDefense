@@ -10,13 +10,13 @@ namespace Plantastic.Module_TowerShop
 
         [HideInInspector] public bool isFull;
 
-        public void BuildTower(GameObject tower)
+        public void BuildTower(GameObject tower, TowerDataSet dataTower)
         {
             if (isFull)
             {
                 return;
             }
-            TowerManager.Instance.BuildNewTower(tower, transform.position + offsetPos);
+            TowerManager.Instance.BuildNewTower(tower, transform.position + offsetPos, dataTower);
             isFull = true;
         }
     }

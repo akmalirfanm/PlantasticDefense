@@ -5,9 +5,9 @@ using Plantastic.Module_TowerShop;
 
 public class Tower : MonoBehaviour, ITowerClicked
 {
-    public int price;
-    public int fireRate;
+    public float fireRate;
     public float rangeShoot;
+    public float damagePower;
 
     public void StartTowerClicked()
     {

@@ -9,6 +9,7 @@ namespace Plantastic.Module_TowerShop
     public class ShopButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
     {
         [SerializeField] private GameObject towerPref;
+        [SerializeField] private TowerDataSet towerData;
         [SerializeField] private LayerMask placeLayer;
         [SerializeField] private string tagTowerPlacement = "TowerPlacement";
 
@@ -21,7 +22,7 @@ namespace Plantastic.Module_TowerShop
         private void Awake()
         {
             priceText = GetComponentInChildren<TextMeshProUGUI>();
-            priceText.text = towerPref.GetComponent<Tower>().price.ToString();
+            priceText.text = towerData.version[0].price.ToString();
         }
 
         public void OnBeginDrag(PointerEventData eventData)
@@ -37,7 +38,7 @@ namespace Plantastic.Module_TowerShop
         {
             if (isRightPlace)
             {
-                _towerPlace.BuildTower(towerPref); 
+                _towerPlace.BuildTower(towerPref, towerData); 
             }
             Destroy(_currentTowerToBuild);
             _currentTowerToBuild = null;
