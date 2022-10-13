@@ -75,9 +75,11 @@ namespace Plantastic.Module_TowerShop
             TowerContainer _tower = towerList.Find(x => (x.posTower.x == pos.x) && (x.posTower.z == pos.z));
             int i = towerList.IndexOf(_tower);
             Destroy(towerList[i].towerObj);
-            towerList[i] = _tower;
 
             _tower.towerPlace.isFull = false;
+            _tower.currentVersion = 0;
+            towerList[i] = _tower;
+
             _upgrade.HideUpgradePanel();
         }
 
