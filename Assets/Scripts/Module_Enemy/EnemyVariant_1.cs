@@ -11,7 +11,7 @@ namespace Plantastic.Module_Enemy
         [SerializeField]
         private int variant1Speed;
         [SerializeField]
-        private int variant1HP;
+        private float variant1HP;
         [SerializeField]
         private int variant1Resource;
         protected override void Start()
@@ -27,11 +27,14 @@ namespace Plantastic.Module_Enemy
             if (Input.GetMouseButtonDown(0))
             {
                 hp -= 1;
+                healthBarEnemy.fillAmount = hp / variant1HP;
                 if (hp <= 0)
                 {
                     /*gameObject.SetActive(false);*/
+                    EventManager.TriggerEvent("SFXMessage", "SFX_Test");
                     handle.AddResource(variant1Resource);
                     Debug.Log(handle.resource);
+                    healthBarEnemy.fillAmount = variant1HP;
                     StoreToPool();
                 }
             }

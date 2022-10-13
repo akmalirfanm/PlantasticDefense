@@ -10,12 +10,9 @@ namespace Plantastic.Module_Enemy
         ResourceHandle handle;
 
         [SerializeField]
-        Spawner spawn;
-
-        [SerializeField]
         private int basicSpeed;
         [SerializeField]
-        private int basicHP;
+        private float basicHP;
         [SerializeField]
         private int basicResource;
         protected override void Start()
@@ -30,13 +27,17 @@ namespace Plantastic.Module_Enemy
         {
             if (Input.GetMouseButtonDown(0))
             {
+                Debug.Log(hp / basicHP);
                 hp -= 1;
+                healthBarEnemy.fillAmount = hp / basicHP;
+                Debug.Log(hp / basicHP);
                 if (hp <= 0)
                 {
                     /*gameObject.SetActive(false);*/
-                    EventManager.TriggerEvent("DieMessage");
+                    EventManager.TriggerEvent("SFXMessage", "SFX_Test");
                     handle.AddResource(basicResource);
                     Debug.Log(handle.resource);
+                    healthBarEnemy.fillAmount = basicHP;
                     StoreToPool();
                 }
             }

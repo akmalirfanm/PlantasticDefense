@@ -56,7 +56,6 @@ namespace Plantastic.Module_GameSetting
             {
                 PlayerPrefs.SetInt("BGM", 0); //BGM off
             }
-            PlayerPrefs.Save();
             Debug.Log("BGM status: " + isBgmOn);
         }
 
@@ -71,7 +70,6 @@ namespace Plantastic.Module_GameSetting
             {
                 PlayerPrefs.SetInt("SFX", 0); //SFX off
             }
-            PlayerPrefs.Save();
             Debug.Log("SFX status: " + isSfxOn);
         }
 

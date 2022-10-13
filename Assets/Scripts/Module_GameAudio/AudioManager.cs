@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using System;
+using UnityEngine.Audio;
 using Plantastic.Module_GameSetting;
 
 namespace Plantastic.Module_GameAudio
@@ -16,6 +18,9 @@ namespace Plantastic.Module_GameAudio
         private AudioSource _sfxSource;
 
         [SerializeField]
+        private AudioClip[] clips;
+
+        /*[SerializeField]
         private AudioClip _buttonClick;
         [SerializeField]
         private AudioClip _enemyDie;
@@ -38,9 +43,9 @@ namespace Plantastic.Module_GameAudio
         [SerializeField]
         private AudioClip _winCon;
         [SerializeField]
-        private AudioClip _loseCon;
+        private AudioClip _loseCon;*/
 
-        private UnityAction _onButtonClick;
+        /*private UnityAction _onButtonClick;
         private UnityAction _onEnemyDie;
         private UnityAction _onBuyTower;
         private UnityAction _onSellTower;
@@ -51,7 +56,8 @@ namespace Plantastic.Module_GameAudio
         private UnityAction _onUpgradeTower;
         private UnityAction _onBoss;
         private UnityAction _onWin;
-        private UnityAction _onLose;
+        private UnityAction _onLose;*/
+        private UnityAction _onSfx;
 
         private void Awake()
         {
@@ -65,7 +71,7 @@ namespace Plantastic.Module_GameAudio
                 Destroy(gameObject);
                 return;
             }
-            _onButtonClick = new UnityAction(OnButtonClick);
+            /*_onButtonClick = new UnityAction(OnButtonClick);
             _onEnemyDie = new UnityAction(OnEnemyDie);
             _onBuyTower = new UnityAction(OnBuyTower);
             _onSellTower = new UnityAction(OnSellTower);
@@ -76,11 +82,12 @@ namespace Plantastic.Module_GameAudio
             _onUpgradeTower = new UnityAction(OnUpgradeTower);
             _onBoss = new UnityAction(OnBoss);
             _onWin = new UnityAction(OnWin);
-            _onLose = new UnityAction(OnLose);
+            _onLose = new UnityAction(OnLose);*/
+            //_onSfx = new UnityAction(() => SfxContainer(""));
         }
         private void OnEnable()
         {
-            EventManager.StartListening("ClickMessage", _onButtonClick);
+           /* EventManager.StartListening("ClickMessage", _onButtonClick);
             EventManager.StartListening("DieMessage", _onEnemyDie);
             EventManager.StartListening("BuyMessage", _onBuyTower);
             EventManager.StartListening("SellMessage", _onSellTower);
@@ -91,11 +98,12 @@ namespace Plantastic.Module_GameAudio
             EventManager.StartListening("UpgradeMessage", _onUpgradeTower);
             EventManager.StartListening("BossMessage", _onBoss);
             EventManager.StartListening("WinSFXMessage", _onWin);
-            EventManager.StartListening("LoseSFXMessage", _onLose);
+            EventManager.StartListening("LoseSFXMessage", _onLose);*/
+            EventManager.StartListening("SFXMessage", SfxContainer);
         }
         private void OnDisable()
         {
-            EventManager.StopListening("ClickMessage", _onButtonClick);
+            /*EventManager.StopListening("ClickMessage", _onButtonClick);
             EventManager.StopListening("DieMessage", _onEnemyDie);
             EventManager.StopListening("BuyMessage", _onBuyTower);
             EventManager.StopListening("SellMessage", _onSellTower);
@@ -106,7 +114,8 @@ namespace Plantastic.Module_GameAudio
             EventManager.StopListening("UpgradeMessage", _onUpgradeTower);
             EventManager.StopListening("BossMessage", _onBoss);
             EventManager.StopListening("WinSFXMessage", _onWin);
-            EventManager.StopListening("LoseSFXMessage", _onLose);
+            EventManager.StopListening("LoseSFXMessage", _onLose);*/
+            EventManager.StopListening("SFXMessage", SfxContainer);
 
         }
         private void Update()
@@ -118,7 +127,17 @@ namespace Plantastic.Module_GameAudio
         {
             _sfxSource.PlayOneShot(clip);
         }
-        public void OnButtonClick()
+        public void SfxContainer(object name)
+        {
+            AudioClip a = Array.Find(clips, c => c.name == (string)name);
+
+            if (a == null)
+            {
+                return;
+            }
+            PlaySfx(a);
+        }
+        /*public void OnButtonClick()
         {
             PlaySfx(_buttonClick);
         }
@@ -165,7 +184,7 @@ namespace Plantastic.Module_GameAudio
         public void OnLose()
         {
             PlaySfx(_loseCon);
-        }
+        }*/
     }
 }
 

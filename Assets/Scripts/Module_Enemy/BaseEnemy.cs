@@ -2,18 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 using Plantastic.Module_PoolingSystem;
 
 namespace Plantastic.Module_Enemy
 {
     public abstract class BaseEnemy : MonoBehaviour, IDamageable, IPoolObject
     {
-        protected int hp;
+        protected float hp;
         protected int speed;
         protected int resource = 0;
 
         protected Transform target;
         protected int waypointIndex = 0;
+
+        [SerializeField]
+        protected Image healthBarEnemy;
 
         public PoolingSystem poolingSystem { private set; get; }
 
