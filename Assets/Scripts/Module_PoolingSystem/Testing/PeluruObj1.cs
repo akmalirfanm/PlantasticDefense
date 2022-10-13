@@ -4,24 +4,19 @@ using UnityEngine;
 using Plantastic.Module_PoolingSystem;
 
 //  scirpt ini dimasukan ke dalam prefab
-public class PeluruObject : PoolObject
+public class PeluruObj1 : BasePeluru
 {
-    public float speed = 5f;
-
-    private void Update()
+    private void Start()
     {
-        transform.Translate(Vector3.right * Time.deltaTime * speed);
+        speed = 23;
     }
-
-    #region Object Pool
     public override void OnCreate()
     {
-        // dilakukan pertama kali saat object active
+        hp = 100;
         Invoke("StoreToPool", 3f);
     }
     public override void StoreToPool()
     {
         base.StoreToPool();
     }
-    #endregion
 }
