@@ -11,7 +11,7 @@ namespace Plantastic.Module_PoolingSystem
         PoolingSystem poolingSystem { get; }
 
         void Initial(PoolingSystem poolSystem);
-        void OnCreate();
-        void StoreToPool();
+        void OnCreate(); //this function is executed right after the object is active
+        void StoreToPool(); //This function is used to return the object to the pool and inActive it
     }
 }
