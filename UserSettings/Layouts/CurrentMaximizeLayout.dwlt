@@ -249,9 +249,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0c120100
+      m_SelectedIDs: 986a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: d0abfeff6653ffffb872ffff76ddffff24e9ffff70e9ffffc2e9ffff42eaffff8eebffffae700000d0700000407100005c7100007c71000084710000ba710000ce710000ee71000016720000
+      m_ExpandedIDs: 0c7ffeff2881feff9083feff0a8afeffd0abfeff6653ffffb872ffff76ddffff24e9ffff70e9ffffc2e9ffff42eaffff8eebffffae700000d0700000407100005c7100007c71000084710000ba710000ce710000ee71000016720000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -654,8 +654,8 @@ MonoBehaviour:
     y: 0
     width: 322.40002
     height: 441.6
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -729,22 +729,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\TUGAS\Unity\PlantasticDefense
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 646a0000
-    m_LastClickedID: 27236
-    m_ExpandedIDs: 00000000626a0000646a00008a6a000000ca9a3b
+    scrollPos: {x: 0, y: 87.80002}
+    m_SelectedIDs: 8e6a0000
+    m_LastClickedID: 27278
+    m_ExpandedIDs: 00000000626a0000646a00008a6a0000906a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -797,8 +797,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 0c120100
-    m_LastClickedInstanceID: 70156
+    m_SelectedInstanceIDs: 986a0000
+    m_LastClickedInstanceID: 27288
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:

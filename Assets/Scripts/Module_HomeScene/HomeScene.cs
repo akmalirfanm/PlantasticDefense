@@ -30,7 +30,7 @@ namespace Plantastic.Module_HomeScene
 
         private void OpenStageSelect()
         {
-            SceneManager.LoadScene("EnemyScene");
+            SceneManager.LoadScene("StageSelect");
         }
         private void OpenSettingPanel()
         {

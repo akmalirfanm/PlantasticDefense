@@ -505,7 +505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stageData:
     stage:
-    - name: Stage1
+    - name: EnemyScene
       unlocked: 1
     - name: Stage2
       unlocked: 0
