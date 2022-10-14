@@ -5,7 +5,6 @@ using Plantastic.Module_PoolingSystem;
 
 public abstract class BasePeluru : MonoBehaviour, IPoolObject
 {
-    protected int hp;
     protected int speed;
 
 

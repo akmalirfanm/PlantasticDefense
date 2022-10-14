@@ -12,7 +12,6 @@ public class PeluruObj1 : BasePeluru
     }
     public override void OnCreate()
     {
-        hp = 100;
         Invoke("StoreToPool", 3f);
     }
     public override void StoreToPool()

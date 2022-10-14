@@ -4,7 +4,8 @@ using UnityEngine;
 
 namespace Plantastic.Module_PoolingSystem
 {
-    public class BulletControlls : MonoBehaviour
+    [System.Serializable]
+    public class BulletControlls
     {
         [SerializeField]
         BasePeluru peluruPrefs;

@@ -28,10 +28,11 @@ namespace Plantastic.Module_Spawner
 			{
 				this.enabled = false;
 			}*/
-			SpawnBullet();
+			
 			if (countdown <= 0f)
 			{
 				StartCoroutine(SpawnWave());
+				StartCoroutine(SpawnBullet());
 				countdown = delaySpawn;
 			}
 
@@ -75,8 +76,9 @@ namespace Plantastic.Module_Spawner
 				controlls[_random].CreateObject(transform.position);
 			}
         }
-		void SpawnBullet()
+		IEnumerator SpawnBullet()
         {
+			yield return new WaitForSeconds(.5f);
 			//index parameter diisi data tower dari scriptable object tower mana yang dibeli
 			bulletControlls[0].CreateObject(transform.position);
 		}
