@@ -6738,6 +6738,7 @@ MonoBehaviour:
   - basicPref: {fileID: 4801166080296783415, guid: aaafad34ad90f6d43a80aca80056ffde, type: 3}
   - basicPref: {fileID: -2943737302571430634, guid: bfd3b27b57bd2ed41bbf012ef31ed361, type: 3}
   - basicPref: {fileID: 6952762775795432620, guid: 9b126fd937c3c35408f9bee381b53f9b, type: 3}
+  bulletControlls: []
   totalWave: 16
 --- !u!1 &1512909993
 GameObject:

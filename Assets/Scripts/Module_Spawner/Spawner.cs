@@ -11,6 +11,8 @@ namespace Plantastic.Module_Spawner
 
         [SerializeField]
         EnemyControll[] controlls;
+		[SerializeField]
+		BulletControlls[] bulletControlls;
 
         private float delaySpawn = 3f;
         private float countdown = 1f;
@@ -26,7 +28,7 @@ namespace Plantastic.Module_Spawner
 			{
 				this.enabled = false;
 			}*/
-
+			SpawnBullet();
 			if (countdown <= 0f)
 			{
 				StartCoroutine(SpawnWave());
@@ -73,6 +75,11 @@ namespace Plantastic.Module_Spawner
 				controlls[_random].CreateObject(transform.position);
 			}
         }
+		void SpawnBullet()
+        {
+			//index parameter diisi data tower dari scriptable object tower mana yang dibeli
+			bulletControlls[0].CreateObject(transform.position);
+		}
     }
 
 }
