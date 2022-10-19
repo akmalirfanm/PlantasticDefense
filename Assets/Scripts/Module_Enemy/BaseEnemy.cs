@@ -12,6 +12,8 @@ namespace Plantastic.Module_Enemy
         protected float hp;
         protected int speed;
         protected int resource = 0;
+        [SerializeField]
+        protected int delay;
 
         protected Transform target;
         protected int waypointIndex = 0;
@@ -56,6 +58,18 @@ namespace Plantastic.Module_Enemy
 
             waypointIndex++;
             target = FindObjectOfType<EnemyWayPoints>().waypoints[waypointIndex];
+        }
+        protected IEnumerator StunEffect(int speedOrigin)
+        {
+            speed = 0;
+            yield return new WaitForSeconds(delay);
+            speed = speedOrigin;
+        }
+        protected IEnumerator SlowEffect(int speedOrigin)
+        {
+            speed = 1;
+            yield return new WaitForSeconds(delay);
+            speed = speedOrigin;
         }
 
         public abstract void OnDamage();

@@ -760,6 +760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d28be86eb9b5fb3498cda1ce25131e29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 1
   healthBarEnemy: {fileID: 8638331461675611048}
   basicSpeed: 5
   basicHP: 2

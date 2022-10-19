@@ -29,6 +29,8 @@ namespace Plantastic.Module_Enemy
             {
                 Debug.Log(hp / basicHP);
                 hp -= 1;
+                //StartCoroutine(StunEffect(basicSpeed));
+                //StartCoroutine(SlowEffect(basicSpeed));
                 healthBarEnemy.fillAmount = hp / basicHP;
                 Debug.Log(hp / basicHP);
                 if (hp <= 0)
