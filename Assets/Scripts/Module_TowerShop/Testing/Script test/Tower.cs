@@ -9,6 +9,9 @@ public class Tower : MonoBehaviour, ITowerClicked
     public float rangeShoot;
     public float damagePower;
 
+    public float stuntDuration;
+    public float slowDuration;
+
     public void StartTowerClicked()
     {
 

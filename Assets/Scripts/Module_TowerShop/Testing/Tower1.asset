@@ -12,30 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71a5a4f2bc6ab694b9b3a9b73c093b91, type: 3}
   m_Name: Tower1
   m_EditorClassIdentifier: 
-  nameOfTower: Tower1
+  nameOfTower: TowerBasic
   version:
   - price: 10
     priceSell: 14
     fireRate: 5
     rangeShoot: 6
     damagePower: 10
+    stuntDuration: 0
+    slowDuration: 0
   - price: 20
-    priceSell: 20
+    priceSell: 50
     fireRate: 10
     rangeShoot: 8
     damagePower: 20
+    stuntDuration: 0
+    slowDuration: 0
   - price: 30
     priceSell: 66
     fireRate: 12
     rangeShoot: 10
     damagePower: 30
-  - price: 40
-    priceSell: 66
-    fireRate: 12
-    rangeShoot: 10
-    damagePower: 30
-  - price: 50
-    priceSell: 66
-    fireRate: 12
-    rangeShoot: 10
-    damagePower: 30
+    stuntDuration: 0
+    slowDuration: 0

@@ -28,7 +28,7 @@ namespace Plantastic.Module_TowerShop
         public void OnBeginDrag(PointerEventData eventData)
         {
             _currentTowerToBuild = Instantiate(towerPref);
-            TowerFollowMouse();
+            TowerFollowMouse(); 
         }
         public void OnDrag(PointerEventData eventData)
         {

@@ -98,6 +98,8 @@ namespace Plantastic.Module_TowerShop
             t.fireRate = d.fireRate;
             t.rangeShoot = d.rangeShoot;
             t.damagePower = d.damagePower;
+            t.stuntDuration = d.stuntDuration;
+            t.slowDuration = d.slowDuration;
             
             //restore data to tower list
             towerList[i] = _tower;
