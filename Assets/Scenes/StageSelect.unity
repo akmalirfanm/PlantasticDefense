@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -210,6 +210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 145635626}
   - component: {fileID: 145635625}
+  - component: {fileID: 145635627}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -294,6 +295,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &145635627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145635624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &1004387382
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,7 +324,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1004387383}
-  - component: {fileID: 1004387385}
   - component: {fileID: 1004387384}
   m_Layer: 5
   m_Name: StageList
@@ -327,26 +347,12 @@ RectTransform:
   m_Father: {fileID: 138516563}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015258789, y: 0.0000038146973}
-  m_SizeDelta: {x: 1582.9, y: 826.8237}
+  m_AnchorMin: {x: 0.1025625, y: 0.14170371}
+  m_AnchorMax: {x: 0.9076042, y: 0.86170375}
+  m_AnchoredPosition: {x: 0.000061035156, y: -2.8302002}
+  m_SizeDelta: {x: 0, y: 5.6603}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1004387384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004387382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalFit: 0
-  m_VerticalFit: 0
---- !u!114 &1004387385
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -364,7 +370,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 30
+  m_Spacing: 20
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -505,26 +511,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stageData:
     stage:
-    - name: EnemyScene
+    - name: Grassland
+      nameScene: hills
       unlocked: 1
-    - name: Stage2
+      iconImage: {fileID: 21300000, guid: f9647594ea5cf7149adced0aae1dd4a1, type: 3}
+    - name: Dessert
+      nameScene: desert
       unlocked: 0
-    - name: Stage2
-      unlocked: 1
-    - name: Stage2
-      unlocked: 0
-    - name: Stage2
-      unlocked: 0
-    - name: Stage2
-      unlocked: 1
-    - name: Stage2
-      unlocked: 0
-    - name: Stage2
-      unlocked: 1
-    - name: Stage2
-      unlocked: 0
-    - name: Stage2
-      unlocked: 0
+      iconImage: {fileID: 21300000, guid: f9647594ea5cf7149adced0aae1dd4a1, type: 3}
 --- !u!4 &1334809621
 Transform:
   m_ObjectHideFlags: 0
@@ -553,7 +547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stageListParent: {fileID: 1004387383}
-  stageButton: {fileID: 5510698130015458742, guid: d0557f8dda4e5bd42ab5a7d013a195b6, type: 3}
+  stageButton: {fileID: 4456766295269328364, guid: d27ff5378266bf24abc9691785093bb6, type: 3}
 --- !u!1 &1642125278
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,6 +559,7 @@ GameObject:
   - component: {fileID: 1642125281}
   - component: {fileID: 1642125280}
   - component: {fileID: 1642125279}
+  - component: {fileID: 1642125282}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -638,6 +633,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1642125282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642125278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &2011236708
 GameObject:
   m_ObjectHideFlags: 0

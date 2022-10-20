@@ -61,11 +61,11 @@ namespace Plantastic.Module_TowerShop
         public void SetUpText(bool max)
         {
             if (max == true)
-                _upText.text = "Max Level";
+                _upText.text = "Max";
             else 
-                _upText.text = "up : " + priceUpgrade.ToString();
+                _upText.text = priceUpgrade.ToString();
 
-            _sellText.text = "sell : " + priceSell.ToString();
+            _sellText.text = priceSell.ToString();
         }
         
     }
