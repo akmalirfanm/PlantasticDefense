@@ -33,10 +33,14 @@ namespace Plantastic.Module_Enemy
             Vector3 dir = target.position - transform.position;
             transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
 
+            transform.LookAt(target);
+
+
             if (Vector3.Distance(transform.position, target.position) <= 0.4f)
             {
-                Quaternion rot = Quaternion.LookRotation(dir);
-                transform.rotation = Quaternion.RotateTowards(transform.rotation, rot, 90);
+               
+               // Quaternion rot = Quaternion.LookRotation(dir);
+               // transform.rotation = Quaternion.RotateTowards(transform.rotation, rot, 90);
                 GetNextWaypoint();
                 
 
