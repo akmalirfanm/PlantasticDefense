@@ -703,6 +703,8 @@ GameObject:
   - component: {fileID: 7110448537032888730}
   - component: {fileID: 7289034459623986384}
   - component: {fileID: 2694191639012512301}
+  - component: {fileID: -7566819840550988404}
+  - component: {fileID: 7735145896916634218}
   m_Layer: 0
   m_Name: enemy2 lv3
   m_TagString: Untagged
@@ -765,6 +767,35 @@ MonoBehaviour:
   basicSpeed: 5
   basicHP: 2
   basicResource: 30
+--- !u!54 &-7566819840550988404
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7630984432223701792}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &7735145896916634218
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7630984432223701792}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.41383082, y: 0.5328524, z: 0.9078512}
+  m_Center: {x: -0.01730445, y: 0.2335738, z: -0.19049692}
 --- !u!1 &7792003464623601267
 GameObject:
   m_ObjectHideFlags: 0
