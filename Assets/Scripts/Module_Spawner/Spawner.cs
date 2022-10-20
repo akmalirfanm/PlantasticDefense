@@ -48,7 +48,7 @@ namespace Plantastic.Module_Spawner
 				for (int i = 0; i < waveIndex; i++)
 				{
 					SpawnEnemy();
-					yield return new WaitForSeconds(0.5f);
+					yield return new WaitForSeconds(1f);
 				}
 				waveIndex++;
 			}
@@ -60,21 +60,23 @@ namespace Plantastic.Module_Spawner
 			int _weakEnemy = Random.Range(0, controlls.Length-2);
 			int _strongEnemy = Random.Range(0, controlls.Length-1);
 
-			if (waveIndex <= 4)
+			if (waveIndex <= 3)
             {
 				controlls[0].CreateObject(transform.position);
             }
 			else if (waveIndex <= 8)
             {
 				controlls[_weakEnemy].CreateObject(transform.position);
-            }
+			}
 			else if (waveIndex <= 12)
-			{
+            {
 				controlls[_strongEnemy].CreateObject(transform.position);
 			}
-			else
+			else if (waveIndex == 13)
             {
-				controlls[_random].CreateObject(transform.position);
+				waveIndex = 1;
+				controlls[controlls.Length-1].CreateObject(transform.position);
+				waveIndex = 14;
 			}
         }
 		IEnumerator SpawnBullet()
