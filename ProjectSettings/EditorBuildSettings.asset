@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EnemyScene.unity
     guid: 965367785af2b304681033579f87369a
+  - enabled: 1
+    path: Assets/Scenes/hills lv1/hills.unity
+    guid: a3ccd52303d361546b417a3db8f6ed8b
+  - enabled: 1
+    path: Assets/Scenes/desert lv1/desert.unity
+    guid: ae7856aa93d2bf64ca031fb880e79fba
   m_configObjects: {}

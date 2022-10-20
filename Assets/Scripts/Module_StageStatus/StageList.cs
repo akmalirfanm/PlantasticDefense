@@ -14,7 +14,9 @@ namespace Plantastic.Module_StageStatus
     public class Stage
     {
         public string name;
+        public string nameScene;
         public bool unlocked;
+        public Sprite iconImage;
     }
 }
 

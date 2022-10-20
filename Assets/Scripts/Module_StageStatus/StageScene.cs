@@ -21,13 +21,14 @@ namespace Plantastic.Module_StageStatus
             for (int i = 0; i < l.Length; i++)
             {
                 stageButtonContainer[i] = Instantiate(stageButton, stageListParent);
-                string stage = l[i].name;
-                stageButtonContainer[i].GetComponent<Button>().onClick.AddListener(()=> Listener(stage));
+                string stage = l[i].nameScene;
+                stageButtonContainer[i].GetComponentInChildren<Button>().onClick.AddListener(()=> Listener(stage));
                 stageButtonContainer[i].GetComponentInChildren<TextMeshProUGUI>().text = l[i].name;
+                stageButtonContainer[i].GetComponentInChildren<Image>().sprite = l[i].iconImage;
 
                 if (!l[i].unlocked)
                 {
-                    stageButtonContainer[i].GetComponent<Button>().interactable = false;
+                    stageButtonContainer[i].GetComponentInChildren<Button>().interactable = false;
                 }
             }
         }
