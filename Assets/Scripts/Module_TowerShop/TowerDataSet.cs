@@ -18,4 +18,7 @@ public class Version
     public int fireRate;
     public float rangeShoot;
     public float damagePower;
+
+    public float stuntDuration;
+    public float slowDuration;
 }
