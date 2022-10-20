@@ -14,7 +14,8 @@ namespace Plantastic.Module_Spawner
 		[SerializeField]
 		BulletControlls[] bulletControlls;
 
-        private float delaySpawn = 3f;
+		[SerializeField]
+        private float delaySpawn;
         private float countdown = 1f;
 
         private int waveIndex = 1;

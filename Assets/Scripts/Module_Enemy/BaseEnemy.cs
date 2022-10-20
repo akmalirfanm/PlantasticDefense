@@ -10,7 +10,7 @@ namespace Plantastic.Module_Enemy
     public abstract class BaseEnemy : MonoBehaviour, IDamageable, IPoolObject
     {
         protected float hp;
-        protected int speed;
+        protected float speed;
         protected int resource = 0;
         [SerializeField]
         protected int delay;

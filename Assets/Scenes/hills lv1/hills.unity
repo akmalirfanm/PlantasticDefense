@@ -29694,11 +29694,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlls:
   - basicPref: {fileID: 2694191639012512301, guid: 04eff695a46f9ce4bb45d84af39533f4, type: 3}
-  - basicPref: {fileID: 4801166080296783415, guid: aaafad34ad90f6d43a80aca80056ffde, type: 3}
-  - basicPref: {fileID: -2943737302571430634, guid: bfd3b27b57bd2ed41bbf012ef31ed361, type: 3}
-  - basicPref: {fileID: 6952762775795432620, guid: 9b126fd937c3c35408f9bee381b53f9b, type: 3}
+  - basicPref: {fileID: 7303823266868074949, guid: f5bcd943949f6974ea702b1e43455eb2, type: 3}
+  - basicPref: {fileID: 7558946171048273414, guid: 6fe64a49d3bfaf849ad2644372ae8db7, type: 3}
+  - basicPref: {fileID: 6487053680844959063, guid: 4e50f9b5957caa04bba561e4e74fa504, type: 3}
   bulletControlls:
-  - peluruPrefs: {fileID: 1133330770081397715, guid: 75ae4210fcf79b74a913edf5befec4bf, type: 3}
+  - peluruPrefs: {fileID: 0}
   totalWave: 16
 --- !u!4 &1037941972
 Transform:

@@ -10,7 +10,7 @@ namespace Plantastic.Module_Enemy
         ResourceHandle handle;
 
         [SerializeField]
-        private int basicSpeed;
+        private float basicSpeed;
         [SerializeField]
         private float basicHP;
         [SerializeField]
