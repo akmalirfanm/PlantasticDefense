@@ -25,6 +25,7 @@ namespace Plantastic.Module_Enemy
         }
         public override void OnDamage()
         {
+            /*
             if (Input.GetMouseButtonDown(0))
             {
                 Debug.Log(hp / basicHP);
@@ -35,13 +36,32 @@ namespace Plantastic.Module_Enemy
                 Debug.Log(hp / basicHP);
                 if (hp <= 0)
                 {
-                    /*gameObject.SetActive(false);*/
+                    /*gameObject.SetActive(false);
                     EventManager.TriggerEvent("SFXMessage", "SFX_Test");
                     handle.AddResource(basicResource);
                     Debug.Log(handle.resource);
                     healthBarEnemy.fillAmount = basicHP;
                     StoreToPool();
                 }
+            }*/
+        }
+
+        public void GetDamage(float damage, float stunt, float slow)
+        {
+            Debug.Log(hp / basicHP);
+            hp -= damage;
+            //StartCoroutine(StunEffect(basicSpeed));
+            //StartCoroutine(SlowEffect(basicSpeed));
+            healthBarEnemy.fillAmount = hp / basicHP;
+            Debug.Log(hp / basicHP);
+            if (hp <= 0)
+            {
+                /*gameObject.SetActive(false);*/
+                EventManager.TriggerEvent("SFXMessage", "SFX_Test");
+                handle.AddResource(basicResource);
+                Debug.Log(handle.resource);
+                healthBarEnemy.fillAmount = basicHP;
+                StoreToPool();
             }
         }
 
