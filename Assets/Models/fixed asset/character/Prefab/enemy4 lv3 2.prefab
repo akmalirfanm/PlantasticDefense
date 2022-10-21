@@ -616,7 +616,7 @@ GameObject:
   - component: {fileID: 6074968701668106876}
   m_Layer: 0
   m_Name: enemy4 lv3 2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -672,7 +672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 1
-  healthBarEnemy: {fileID: 0}
+  healthBarEnemy: {fileID: 490929678904426680}
   basicSpeed: 3
   basicHP: 30
   basicResource: 70

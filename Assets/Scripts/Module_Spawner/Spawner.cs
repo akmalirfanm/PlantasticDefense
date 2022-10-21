@@ -37,7 +37,6 @@ namespace Plantastic.Module_Spawner
 			if (countdown <= 0f)
 			{
 				StartCoroutine(SpawnWave());
-				StartCoroutine(SpawnBullet());
 				countdown = delaySpawn;
 			}
 
@@ -85,12 +84,6 @@ namespace Plantastic.Module_Spawner
 				waveIndex = 14;
 			}
         }
-		IEnumerator SpawnBullet()
-        {
-			yield return new WaitForSeconds(.5f);
-			//index parameter diisi data tower dari scriptable object tower mana yang dibeli
-			bulletControlls[0].CreateObject(transform.position);
-		}
 		IEnumerator WaveSpawnText(int i)
         {
 			waveText.gameObject.SetActive(true);

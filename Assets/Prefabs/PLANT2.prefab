@@ -119,7 +119,7 @@ MonoBehaviour:
   partToRotate: {fileID: 849670515764531056}
   turnSpeed: 10
   firePoint: {fileID: 849670516401807100}
-  bulletPrefab: {fileID: 2500288112967533752, guid: 3faae0e6067918246becbfe5ad8617cb, type: 3}
+  bulletPrefab: {fileID: 2500288112967533752, guid: 23560ad373b1f5447b0586f492bffa99, type: 3}
   towerLevelObject:
   - {fileID: 833387960006555353, guid: 626220004d330fc43b71ea17a5061777, type: 3}
   - {fileID: 5109056762772481178, guid: 653ccd6a5063a4241b720f8fe43b6c20, type: 3}
