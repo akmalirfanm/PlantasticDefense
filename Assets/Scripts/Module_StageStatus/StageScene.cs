@@ -11,8 +11,15 @@ namespace Plantastic.Module_StageStatus
     {
         [SerializeField] Transform stageListParent;
         [SerializeField] GameObject stageButton;
+        [SerializeField] Button backButton;
 
         private GameObject[] stageButtonContainer;
+
+        private void Awake()
+        {
+            backButton.onClick.RemoveAllListeners();
+            backButton.onClick.AddListener(BackButton);
+        }
 
         void Start()
         {
@@ -35,6 +42,11 @@ namespace Plantastic.Module_StageStatus
         void Listener(string nameStage)
         {
             SceneManager.LoadScene(nameStage);
+        }
+
+        void BackButton()
+        {
+            SceneManager.LoadScene("Home");
         }
     }
 }
