@@ -62,17 +62,29 @@ namespace Plantastic.Module_Enemy
             waypointIndex++;
             target = FindObjectOfType<EnemyWayPoints>().waypoints[waypointIndex];
         }
-        protected IEnumerator StunEffect(int speedOrigin)
+        protected IEnumerator StunEffect(float speedOrigin, float stuntDelay)
         {
-            speed = 0;
-            yield return new WaitForSeconds(delay);
-            speed = speedOrigin;
+            if(stuntDelay > 0)
+            {
+                speed = 0;
+                yield return new WaitForSeconds(stuntDelay);
+                speed = speedOrigin;
+            }
         }
-        protected IEnumerator SlowEffect(int speedOrigin)
+        protected IEnumerator SlowEffect(float speedOrigin, float slowDelay)
         {
-            speed = 1;
-            yield return new WaitForSeconds(delay);
-            speed = speedOrigin;
+
+            if(slowDelay > 0)
+            {
+                Debug.Log("Slowed");
+
+                speed = speed * 0.5f;
+                yield return new WaitForSeconds(slowDelay);
+                speed = speedOrigin;
+
+                Debug.Log("Slowed DOne  ");
+            }
+            
         }
 
         public abstract void OnDamage();

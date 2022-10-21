@@ -23,7 +23,8 @@ public class BulletAOE : BaseBullet
         {
             if (other.gameObject == targetEnemy.gameObject)
             {
-                aoeEffect.GetComponent<AOEEffect>().StartAOEEffect(damagePower, stuntDuration, slowDuration);
+                other.GetComponent<EnemyBasic>().GetDamage(0, stuntDuration, 0);
+                aoeEffect.GetComponent<AOEEffect>().StartAOEEffect(damagePower, 0, slowDuration);
             }
         }
     }

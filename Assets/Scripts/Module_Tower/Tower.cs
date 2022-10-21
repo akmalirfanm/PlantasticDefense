@@ -28,6 +28,14 @@ public class Tower : MonoBehaviour, ITowerClicked
 	public GameObject bulletPrefab;
 
 	[SerializeField]
+	private List<GameObject> towerLevelObject;
+
+	[SerializeField]
+	private GameObject towerObjectParent;
+	[SerializeField]
+	private GameObject towerObject;
+
+	[SerializeField]
 	private GameObject circleRange;
 
 	public void StartTowerClicked()
@@ -126,5 +134,12 @@ public class Tower : MonoBehaviour, ITowerClicked
     {
 		circleRange.transform.localScale = new Vector3(rangeShoot, rangeShoot, rangeShoot);
 
+	}
+
+	public void SetTowerObject(int index)
+    {
+		Destroy(towerObject);
+		GameObject plant =  Instantiate(towerLevelObject[index - 1], towerObjectParent.transform);
+		towerObject = plant;
 	}
 }

@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2500288112967533749}
-  - component: {fileID: 2500288112967533754}
   - component: {fileID: 2500288112967533755}
   - component: {fileID: 29180057253688025}
   m_Layer: 0
@@ -36,23 +35,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2500288112967533754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2500288112967533752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fd472ffe848fdb4981283a6cdc045ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetEnemy: {fileID: 0}
-  damagePower: 0
-  stuntDuration: 0
-  slowDuration: 0
-  speed: 5
 --- !u!136 &2500288112967533755
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -80,10 +62,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetEnemy: {fileID: 0}
-  damagePower: 0
+  damagePower: 0.5
   stuntDuration: 0
   slowDuration: 0
-  speed: 0
+  speed: 5
   aoeEffect: {fileID: 14018809891730975}
 --- !u!1 &5054901199695826273
 GameObject:
