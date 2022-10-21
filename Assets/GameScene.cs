@@ -137,6 +137,6 @@ public class GameScene : MonoBehaviour
 
     private void Next()
     {
-
+        SceneManager.LoadScene("dessert");
     }
 }
