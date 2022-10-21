@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.75901294, g: 0.6162866, b: 0.53437793, a: 1}
+  m_IndirectSpecularColor: {r: 0.759014, g: 0.61628854, b: 0.53438, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -17010,6 +17010,7 @@ GameObject:
   - component: {fileID: 589970452}
   - component: {fileID: 589970451}
   - component: {fileID: 589970454}
+  - component: {fileID: 589970456}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -17109,7 +17110,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 589970450}
   m_LocalRotation: {x: 0.22350667, y: 0.3713161, z: -0.09257949, w: 0.8964364}
-  m_LocalPosition: {x: 0, y: 0, z: -17.73}
+  m_LocalPosition: {x: 0, y: 0, z: -16.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17118,9 +17119,25 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 28, y: 45, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.35, y: 6.59}
+  m_AnchoredPosition: {x: -4.3, y: 6.59}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &589970456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589970450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a526d022dc58f31428cdb66b3d656045, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 589970452}
+  scrollSpeed: 0.5
+  limitZoomSize: 5
+  limitMove: 0.54
 --- !u!1001 &590075921
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32674,6 +32691,7 @@ MonoBehaviour:
   bulletControlls:
   - peluruPrefs: {fileID: 0}
   delaySpawn: 7
+  enemyDelay: 0
   totalWave: 13
   waveText: {fileID: 950892636}
   gameFlow: {fileID: 358596029}
