@@ -52,8 +52,9 @@ namespace Plantastic.Module_Spawner
 				for (int i = 0; i < waveIndex; i++)
 				{
 					SpawnEnemy();
-					yield return new WaitForSeconds(1f);
 					StartCoroutine(WaveSpawnText(waveIndex));
+					yield return new WaitForSeconds(1f);
+					
 				}
 				waveIndex++;
 			}

@@ -31859,7 +31859,7 @@ MonoBehaviour:
   - basicPref: {fileID: 5892946244499521261, guid: d37d2dc49391399468a17a71b61165cc, type: 3}
   bulletControlls:
   - peluruPrefs: {fileID: 0}
-  delaySpawn: 5
+  delaySpawn: 7
   totalWave: 13
   waveText: {fileID: 950892636}
 --- !u!4 &1037941972
