@@ -552,6 +552,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
 --- !u!4 &21096381 stripped
@@ -891,6 +895,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
 --- !u!4 &27725286 stripped
@@ -1038,6 +1046,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
 --- !u!4 &35353799 stripped
@@ -1174,6 +1186,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
@@ -1510,6 +1526,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
 --- !u!4 &40864181 stripped
@@ -1722,6 +1742,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
@@ -2281,6 +2305,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
 --- !u!4 &66922707 stripped
@@ -2346,6 +2374,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
@@ -2718,6 +2750,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
 --- !u!4 &90998485 stripped
@@ -2743,7 +2779,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2
+      value: 1.97
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2751,7 +2787,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 1.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2788,6 +2824,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
@@ -3078,6 +3118,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
 --- !u!4 &100495001 stripped
@@ -3174,7 +3218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3182,7 +3226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 1.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3219,6 +3263,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
@@ -3367,6 +3415,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
 --- !u!4 &121566996 stripped
@@ -3391,11 +3443,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5
+      value: 5.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3432,6 +3484,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
@@ -3868,11 +3924,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8
+      value: 8.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3909,6 +3965,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
@@ -4114,7 +4174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6
+      value: 6.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4152,6 +4212,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
 --- !u!4 &145889313 stripped
@@ -4173,6 +4237,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7761097537049769231, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+--- !u!114 &145889317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111585202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &146492015 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 223b02bbcd4f2a142b7efeef7c95ef88, type: 3}
@@ -4258,6 +4336,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7761097537049769231, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+--- !u!114 &146585402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146585398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &146591279
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5376,6 +5468,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
 --- !u!4 &181143281 stripped
@@ -5764,11 +5860,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11
+      value: 11.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5805,6 +5901,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
@@ -5953,6 +6053,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
 --- !u!4 &199749244 stripped
@@ -6089,6 +6193,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
@@ -6297,6 +6405,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
@@ -6916,6 +7028,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &240793281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240793277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &241493958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6974,6 +7100,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
@@ -7453,6 +7583,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
 --- !u!4 &256561432 stripped
@@ -7533,6 +7667,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
@@ -7898,6 +8036,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
 --- !u!4 &274765778 stripped
@@ -8034,6 +8176,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
@@ -8193,6 +8339,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2756150729126458327, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+--- !u!114 &278587020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278587016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &280689319
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8322,6 +8482,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
@@ -8498,7 +8662,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6
+      value: 6.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8535,6 +8699,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
@@ -10024,6 +10192,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
 --- !u!4 &332721995 stripped
@@ -10312,6 +10484,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
 --- !u!4 &340974375 stripped
@@ -10484,6 +10660,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &349924167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349924163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &353772271 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
@@ -10508,6 +10698,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -134038679354197854, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+--- !u!114 &355007898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355007894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &356802040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12070,11 +12274,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6
+      value: 6.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12111,6 +12315,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
@@ -12916,6 +13124,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -134038679354197854, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+--- !u!114 &447306970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447306966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &452117225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13339,6 +13561,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
@@ -14884,7 +15110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4
+      value: 4.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14921,6 +15147,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
@@ -14992,6 +15222,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
@@ -15404,6 +15638,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
 --- !u!4 &543016120 stripped
@@ -15425,6 +15663,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -134038679354197854, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+--- !u!114 &543016124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72227868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &543595674 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 24598594188dbea458be44965d668668, type: 3}
@@ -15488,6 +15740,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
@@ -15789,6 +16045,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &554999507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554999503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &558416718 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 477ebf8f10ddc3b4a9ece7652cef3827, type: 3}
@@ -16149,6 +16419,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
@@ -17226,11 +17500,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7
+      value: 7.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17267,6 +17541,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
@@ -17383,7 +17661,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17391,7 +17669,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6
+      value: 6.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17429,6 +17707,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
 --- !u!4 &599791863 stripped
@@ -17450,6 +17732,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -134038679354197854, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+--- !u!114 &599791867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330922557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &600399824 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 24598594188dbea458be44965d668668, type: 3}
@@ -18051,11 +18347,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7
+      value: 7.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18092,6 +18388,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
@@ -18391,11 +18691,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10
+      value: 10.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18432,6 +18732,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
@@ -18822,6 +19126,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8521699423624097067, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+--- !u!114 &627666221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627666217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &629961311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18880,6 +19198,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
@@ -19094,6 +19416,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
 --- !u!4 &649302906 stripped
@@ -19115,6 +19441,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8521699423624097067, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+--- !u!114 &649302910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85143099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &649594928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19469,6 +19809,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &659107113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659107109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &660754220 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
@@ -19949,7 +20303,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -19957,7 +20311,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3
+      value: 3.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19994,6 +20348,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
@@ -20162,7 +20520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -20170,7 +20528,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: 2.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20208,6 +20566,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
 --- !u!4 &685360110 stripped
@@ -20229,6 +20591,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -134038679354197854, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+--- !u!114 &685360114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243478386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &685982295 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
@@ -20539,6 +20915,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
 --- !u!4 &702134091 stripped
@@ -20631,6 +21011,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7761097537049769231, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+--- !u!114 &706086558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706086554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &706322053 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fa0c7defdcc24164cbc7bea550b88d18, type: 3}
@@ -20855,6 +21249,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
@@ -21092,6 +21490,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
 --- !u!4 &717881050 stripped
@@ -21113,6 +21515,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &717881054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528769487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &718165420
 GameObject:
   m_ObjectHideFlags: 0
@@ -21214,6 +21630,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8521699423624097067, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+--- !u!114 &719783210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719783206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &722249728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21737,6 +22167,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
 --- !u!4 &730953303 stripped
@@ -21888,6 +22322,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
 --- !u!4 &735689115 stripped
@@ -21909,6 +22347,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &735689119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510912257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &737266109 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f977926b95054e34b83dad62887adca2, type: 3}
@@ -22504,6 +22956,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &763939615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763939611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &764162629 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: eaf65cf8516bdf44aa72db1e41ad4eb1, type: 3}
@@ -22778,6 +23244,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -134038679354197854, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+--- !u!114 &773312616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773312612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &773595542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23422,6 +23902,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
@@ -24281,6 +24765,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
 --- !u!4 &806509944 stripped
@@ -24302,6 +24790,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &806509948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8887554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &807883192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24511,6 +25013,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &817448042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817448038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &817733431 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
@@ -24549,6 +25065,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -134038679354197854, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+--- !u!114 &817950843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817950839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &818771684 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 223b02bbcd4f2a142b7efeef7c95ef88, type: 3}
@@ -24933,6 +25463,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &833006991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833006987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &833419580
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25255,6 +25799,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
@@ -25676,6 +26224,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
 --- !u!4 &844184352 stripped
@@ -25841,6 +26393,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
 --- !u!4 &844905125 stripped
@@ -25867,6 +26423,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &846031937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846031933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &846242028 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 223b02bbcd4f2a142b7efeef7c95ef88, type: 3}
@@ -26454,6 +27024,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &864465388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864465384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &864692110
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26513,6 +27097,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
 --- !u!4 &864692111 stripped
@@ -26546,7 +27134,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5
+      value: 5.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_LocalRotation.w
@@ -26583,6 +27171,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
@@ -26730,6 +27322,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
 --- !u!4 &868353011 stripped
@@ -26751,6 +27347,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &868353015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805322948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &869339294 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
@@ -26985,6 +27595,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
 --- !u!4 &876071505 stripped
@@ -27006,6 +27620,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &876071509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445531616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &878518793
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27064,6 +27692,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
@@ -27785,6 +28417,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
@@ -29544,6 +30180,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
 --- !u!4 &957550051 stripped
@@ -29565,6 +30205,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8521699423624097067, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+--- !u!114 &957550055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796919039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &960834038 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c5f1483e1505fda4d8ae0d42c2957c91, type: 3}
@@ -29886,11 +30540,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4
+      value: 4.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalRotation.w
@@ -29928,6 +30582,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
 --- !u!4 &966409818 stripped
@@ -29949,6 +30607,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &966409822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802031077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &969527848
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30159,6 +30831,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
 --- !u!4 &970460987 stripped
@@ -30180,6 +30856,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2756150729126458327, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+--- !u!114 &970460991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317027397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &972037422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30367,6 +31057,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
 --- !u!4 &973036465 stripped
@@ -30388,6 +31082,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &973036469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270851660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &973199680 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
@@ -31252,6 +31960,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &999761386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999761382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1000073920 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
@@ -31320,6 +32042,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
@@ -32002,6 +32728,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
@@ -32689,6 +33419,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &1033994798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033994794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1035733263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32793,6 +33537,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8521699423624097067, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+--- !u!114 &1036966860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036966856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1037941970
 GameObject:
   m_ObjectHideFlags: 0
@@ -33477,6 +34235,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7761097537049769231, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+--- !u!114 &1052046049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052046045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1053271226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33890,11 +34662,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6
+      value: 6.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalRotation.w
@@ -33931,6 +34703,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
@@ -34519,6 +35295,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
 --- !u!4 &1087009946 stripped
@@ -34540,6 +35320,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2756150729126458327, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+--- !u!114 &1087009950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076325247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1087154793
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34654,6 +35448,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -134038679354197854, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+--- !u!114 &1091186219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091186215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1094617657 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c5f1483e1505fda4d8ae0d42c2957c91, type: 3}
@@ -35275,6 +36083,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -134038679354197854, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+--- !u!114 &1111287176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111287172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1112346082
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35414,6 +36236,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
 --- !u!4 &1112748273 stripped
@@ -35435,6 +36261,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &1112748277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382014129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1113396214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35668,6 +36508,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
@@ -36357,11 +37201,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10
+      value: 10.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalRotation.w
@@ -36399,6 +37243,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
 --- !u!4 &1138665632 stripped
@@ -36420,6 +37268,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &1138665636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98265112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1140626386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37112,6 +37974,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
 --- !u!4 &1153691729 stripped
@@ -37413,6 +38279,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
@@ -38463,11 +39333,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8
+      value: 8.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalRotation.w
@@ -38505,6 +39375,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
 --- !u!4 &1199714993 stripped
@@ -38526,6 +39400,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &1199714997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164456013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1199968920 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
@@ -38656,6 +39544,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
 --- !u!4 &1200401947 stripped
@@ -38677,6 +39569,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &1200401951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109002689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1203810548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39307,6 +40213,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
 --- !u!4 &1210322775 stripped
@@ -39328,6 +40238,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &1210322779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194338555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1210613103
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39971,6 +40895,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
 --- !u!4 &1226621482 stripped
@@ -39992,6 +40920,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8521699423624097067, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+--- !u!114 &1226621486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206808001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1227873555
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40009,11 +40951,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4
+      value: 4.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_LocalRotation.w
@@ -40051,6 +40993,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
 --- !u!4 &1227873556 stripped
@@ -40072,6 +41018,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2756150729126458327, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+--- !u!114 &1227873560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061055079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1228452632 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
@@ -40149,6 +41109,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
@@ -40264,6 +41228,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
 --- !u!4 &1232718245 stripped
@@ -40285,6 +41253,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2756150729126458327, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+--- !u!114 &1232718249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135561922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1233540361 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 223b02bbcd4f2a142b7efeef7c95ef88, type: 3}
@@ -40460,6 +41442,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &1239252556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239252552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1239612707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40817,11 +41813,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11
+      value: 11.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_LocalRotation.w
@@ -40858,6 +41854,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
@@ -41131,6 +42131,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
 --- !u!4 &1249480581 stripped
@@ -41152,6 +42156,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &1249480585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141164812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1250625556
 GameObject:
   m_ObjectHideFlags: 0
@@ -41663,6 +42681,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
 --- !u!4 &1265180211 stripped
@@ -41684,6 +42706,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &1265180215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812074140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1267606726 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
@@ -41984,11 +43020,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9
+      value: 9.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_LocalRotation.w
@@ -42026,6 +43062,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
 --- !u!4 &1275287285 stripped
@@ -42047,6 +43087,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7761097537049769231, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+--- !u!114 &1275287289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893913399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1277960771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42586,6 +43640,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &1284284150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284284146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1284797158 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 223b02bbcd4f2a142b7efeef7c95ef88, type: 3}
@@ -42610,6 +43678,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -134038679354197854, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+--- !u!114 &1284982549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284982545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1285549432 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
@@ -42813,6 +43895,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &1287988104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287988100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1288238217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42952,6 +44048,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
 --- !u!4 &1288828379 stripped
@@ -42973,6 +44073,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2756150729126458327, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+--- !u!114 &1288828383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110597090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1289026931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43032,6 +44146,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
 --- !u!4 &1289026932 stripped
@@ -43053,6 +44171,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &1289026936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940396619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1289411090
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43854,6 +44986,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &1314513026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314513022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1314561513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43993,6 +45139,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
 --- !u!4 &1316867736 stripped
@@ -44014,6 +45164,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &1316867740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69374933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1320310445 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
@@ -44494,6 +45658,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
 --- !u!4 &1330316269 stripped
@@ -44664,6 +45832,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
 --- !u!4 &1333505486 stripped
@@ -44685,6 +45857,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &1333505490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275593038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1333986687 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: eaf65cf8516bdf44aa72db1e41ad4eb1, type: 3}
@@ -44778,11 +45964,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12
+      value: 12.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -44820,6 +46006,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
 --- !u!4 &1335028462 stripped
@@ -44841,6 +46031,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -134038679354197854, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+--- !u!114 &1335028466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111236782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1335410406 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
@@ -45070,6 +46274,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
 --- !u!4 &1342518469 stripped
@@ -45091,6 +46299,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &1342518473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181268518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1343264281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45293,7 +46515,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_LocalPosition.y
@@ -45301,7 +46523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5
+      value: 5.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_LocalRotation.w
@@ -45338,6 +46560,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
@@ -45580,6 +46806,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
 --- !u!4 &1357124461 stripped
@@ -45601,6 +46831,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7761097537049769231, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+--- !u!114 &1357124465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905640419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1358709591 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
@@ -46527,6 +47771,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7761097537049769231, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+--- !u!114 &1393784235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393784231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1393902990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46676,6 +47934,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
 --- !u!4 &1396079891 stripped
@@ -46697,6 +47959,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &1396079895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317409687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1396896929 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a6ced5e877c97854fb6d5e221c9b41b7, type: 3}
@@ -47264,6 +48540,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8521699423624097067, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+--- !u!114 &1413803374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413803370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1415195236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47422,6 +48712,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
 --- !u!4 &1415869515 stripped
@@ -47443,6 +48737,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -134038679354197854, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+--- !u!114 &1415869519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779364717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1416013250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48209,6 +49517,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
 --- !u!4 &1431935753 stripped
@@ -48230,6 +49542,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &1431935757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107183071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1432602256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48392,6 +49718,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
@@ -49897,6 +51227,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &1478215341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478215337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1478499249 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
@@ -50067,6 +51411,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2756150729126458327, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+--- !u!114 &1481787389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481787385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1482587599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50468,6 +51826,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &1485020788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485020784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1486650965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50526,6 +51898,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
@@ -50593,6 +51969,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
 --- !u!4 &1487788537 stripped
@@ -50614,6 +51994,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2756150729126458327, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+--- !u!114 &1487788541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757196813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1490652495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50718,6 +52112,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &1500949577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500949573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1501221344
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51730,6 +53138,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
 --- !u!4 &1521168439 stripped
@@ -51751,6 +53163,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &1521168443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384441986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1521639183 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
@@ -52431,6 +53857,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &1541860727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541860723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1542630970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52549,6 +53989,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8521699423624097067, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+--- !u!114 &1543013296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543013292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1543539456
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52976,11 +54430,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9
+      value: 9.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_LocalRotation.w
@@ -53017,6 +54471,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
@@ -53210,6 +54668,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &1563597220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563597216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1565065292 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 601c51921a5a9ab4d912bd6a6a9bb85e, type: 3}
@@ -53246,11 +54718,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4
+      value: 4.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
       propertyPath: m_LocalRotation.w
@@ -53288,6 +54760,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
 --- !u!4 &1565802081 stripped
@@ -53309,6 +54785,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &1565802085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330497182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1566273332 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a7b37206b51a0164f9b71cd38a818549, type: 3}
@@ -54719,6 +56209,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7761097537049769231, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+--- !u!114 &1599110474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599110470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1599349033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55264,7 +56768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 1.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_LocalRotation.w
@@ -55301,6 +56805,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
@@ -55568,6 +57076,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &1618915085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618915081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1619118700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55927,6 +57449,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
 --- !u!4 &1621635570 stripped
@@ -55948,6 +57474,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7761097537049769231, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+--- !u!114 &1621635574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142617475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1622356640 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
@@ -56637,6 +58177,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &1635130131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635130127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1636865867 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: db9c79a4d160cab4fb3dd626677fb075, type: 3}
@@ -56854,6 +58408,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8521699423624097067, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+--- !u!114 &1640385091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640385087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1641359268
 GameObject:
   m_ObjectHideFlags: 0
@@ -57336,6 +58904,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &1649369458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649369454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1652979721
 GameObject:
   m_ObjectHideFlags: 0
@@ -57435,11 +59017,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5
+      value: 5.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
       propertyPath: m_LocalRotation.w
@@ -57477,6 +59059,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
 --- !u!4 &1654686455 stripped
@@ -57498,6 +59084,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8521699423624097067, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+--- !u!114 &1654686459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847924526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1657821700 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
@@ -58114,11 +59714,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6
+      value: 6.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalRotation.w
@@ -58156,6 +59756,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
 --- !u!4 &1669016219 stripped
@@ -58177,6 +59781,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &1669016223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311434178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1669252267 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
@@ -58632,6 +60250,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
 --- !u!4 &1677227302 stripped
@@ -58653,6 +60275,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8521699423624097067, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+--- !u!114 &1677227306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325414321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1678546915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59033,6 +60669,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
 --- !u!4 &1694613028 stripped
@@ -59054,6 +60694,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7761097537049769231, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+--- !u!114 &1694613032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963113848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1698611067
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59615,6 +61269,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2756150729126458327, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+--- !u!114 &1725202735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725202731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1727507801 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a6ced5e877c97854fb6d5e221c9b41b7, type: 3}
@@ -59653,6 +61321,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &1730853235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730853231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1730906987 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f977926b95054e34b83dad62887adca2, type: 3}
@@ -60001,6 +61683,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &1752899849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752899845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1753474605 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
@@ -60395,6 +62091,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
 --- !u!4 &1759611646 stripped
@@ -60461,6 +62161,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
 --- !u!4 &1760157590 stripped
@@ -60482,6 +62186,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7761097537049769231, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+--- !u!114 &1760157594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861233927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1760305731 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 477ebf8f10ddc3b4a9ece7652cef3827, type: 3}
@@ -61806,6 +63524,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &1769255188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769255184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1770707702 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
@@ -62401,6 +64133,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8521699423624097067, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+--- !u!114 &1785739490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785739486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1785963552 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
@@ -63943,6 +65689,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
 --- !u!4 &1827866655 stripped
@@ -63964,6 +65714,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &1827866659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917490508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1828474479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64023,6 +65787,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
 --- !u!4 &1828474480 stripped
@@ -64044,6 +65812,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &1828474484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682189183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1829006666 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
@@ -64426,6 +66208,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7761097537049769231, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+--- !u!114 &1833145388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833145384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1833346089 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
@@ -64969,6 +66765,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
 --- !u!4 &1841078192 stripped
@@ -64990,6 +66790,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &1841078196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570535763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1844152059 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
@@ -65009,6 +66823,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -134038679354197854, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+--- !u!114 &1844152063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844152059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1844978435 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 223b02bbcd4f2a142b7efeef7c95ef88, type: 3}
@@ -65073,6 +66901,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
 --- !u!4 &1845199515 stripped
@@ -65094,6 +66926,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &1845199519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282572155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1847711748 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 24598594188dbea458be44965d668668, type: 3}
@@ -65137,6 +66983,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &1855534806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855534802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1856547679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66040,6 +67900,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
 --- !u!4 &1877337276 stripped
@@ -66061,6 +67925,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8521699423624097067, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+--- !u!114 &1877337280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793621809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1878502115 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
@@ -66203,6 +68081,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &1883941986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883941982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1884066009 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f977926b95054e34b83dad62887adca2, type: 3}
@@ -66736,6 +68628,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7761097537049769231, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+--- !u!114 &1896396096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896396092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1896463225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67154,6 +69060,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7761097537049769231, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+--- !u!114 &1902791410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902791406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1905303896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67498,6 +69418,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &1907109070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907109066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1907818742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67557,6 +69491,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
 --- !u!4 &1907818743 stripped
@@ -67578,6 +69516,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8521699423624097067, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+--- !u!114 &1907818747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328203256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1909364982 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
@@ -68080,6 +70032,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
 --- !u!4 &1918260548 stripped
@@ -68514,6 +70470,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
 --- !u!4 &1940789758 stripped
@@ -68535,6 +70495,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &1940789762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569866786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1940789948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68678,6 +70652,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
@@ -68936,6 +70914,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8521699423624097067, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+--- !u!114 &1947387957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947387953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1947493479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69174,6 +71166,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
 --- !u!4 &1948165613 stripped
@@ -69195,6 +71191,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &1948165617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575496816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1948434768 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 24598594188dbea458be44965d668668, type: 3}
@@ -69532,6 +71542,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
 --- !u!4 &1952826952 stripped
@@ -69553,6 +71567,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &1952826956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892020410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1953205484
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69929,11 +71957,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4
+      value: 4.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
       propertyPath: m_LocalRotation.w
@@ -69971,6 +71999,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
 --- !u!4 &1962428754 stripped
@@ -69992,6 +72024,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7761097537049769231, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+--- !u!114 &1962428758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518541561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1963259908
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71261,6 +73307,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
 --- !u!4 &1995441659 stripped
@@ -71282,6 +73332,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -134038679354197854, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+--- !u!114 &1995441663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631668212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &1995606055
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71341,6 +73405,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
 --- !u!4 &1995606056 stripped
@@ -71362,6 +73430,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2756150729126458327, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+--- !u!114 &1995606060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473151733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1996487632 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
@@ -71400,6 +73482,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &1997265814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997265810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &1997947899 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
@@ -71419,6 +73515,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -134038679354197854, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+--- !u!114 &1997947903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997947899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &2000473577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71478,6 +73588,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
 --- !u!4 &2000473578 stripped
@@ -71499,6 +73613,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2756150729126458327, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+--- !u!114 &2000473582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522642832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &2000572145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71558,6 +73686,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
 --- !u!4 &2000572146 stripped
@@ -71579,6 +73711,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7761097537049769231, guid: e204b757b395c394ca205c884a83f1ef, type: 3}
+--- !u!114 &2000572150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581871926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &2001076889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71942,6 +74088,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2756150729126458327, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+--- !u!114 &2010673729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010673725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &2014486436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72079,6 +74239,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -134038679354197854, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
+--- !u!114 &2016474586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016474582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &2016925668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72271,7 +74445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalPosition.y
@@ -72279,7 +74453,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4
+      value: 4.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
       propertyPath: m_LocalRotation.w
@@ -72317,6 +74491,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
 --- !u!4 &2019522821 stripped
@@ -72338,6 +74516,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &2019522825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875587656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &2020935340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72897,6 +75089,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
 --- !u!4 &2037084443 stripped
@@ -72918,6 +75114,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8521699423624097067, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+--- !u!114 &2037084447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751771834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &2038053388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73180,11 +75390,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12
+      value: 12.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -73222,6 +75432,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
 --- !u!4 &2042505681 stripped
@@ -73243,6 +75457,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &2042505685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935889007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &2044302256
 GameObject:
   m_ObjectHideFlags: 0
@@ -73512,6 +75740,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &2053600423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053600419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &2054005325
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73571,6 +75813,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
 --- !u!4 &2054005326 stripped
@@ -73592,6 +75838,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2756150729126458327, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+--- !u!114 &2054005330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258940686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &2054176911
 GameObject:
   m_ObjectHideFlags: 0
@@ -73712,6 +75972,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &2056402386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056402382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &2057910174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74030,6 +76304,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
 --- !u!4 &2065973068 stripped
@@ -74051,6 +76329,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &2065973072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591616535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &2066195902 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
@@ -74462,6 +76754,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &2077457886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077457882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &2077479599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74784,6 +77090,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2756150729126458327, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+--- !u!114 &2085394793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085394789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &2085629956 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 07b935ad5631ccd45a1b1ab947ceb57e, type: 3}
@@ -75223,6 +77543,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2756150729126458327, guid: 19244e1d16729e44ab087637f8abf8ee, type: 3}
+--- !u!114 &2099728633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099728629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &2101409689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75421,6 +77755,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7832528439794217788, guid: 3c9b153456e45494e96d412853d3e2f8, type: 3}
+--- !u!114 &2104924939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104924935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &2105360614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75480,6 +77828,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
 --- !u!4 &2105360615 stripped
@@ -75501,6 +77853,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8521699423624097067, guid: 7cc2b37b1afc8384e816f78e6c9a7b39, type: 3}
+--- !u!114 &2105360619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351224765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &2105838071
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75963,6 +78329,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &2116847062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116847058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &2118220505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76022,6 +78402,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+      propertyPath: m_TagString
+      value: Tower Placement
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
 --- !u!4 &2118220506 stripped
@@ -76043,6 +78427,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8768232769706978063, guid: 5b8aef08dca71a846a592d1ad6e2d827, type: 3}
+--- !u!114 &2118220510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740784208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1001 &2119454514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76919,6 +79317,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3300039926456551536, guid: 3caf12b70dd042945aa51698a0d2e402, type: 3}
+--- !u!114 &2133824481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133824477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetPos: {x: 0, y: 0, z: 0}
+  isFull: 0
 --- !u!1 &2135322227
 GameObject:
   m_ObjectHideFlags: 0

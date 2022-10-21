@@ -16,7 +16,7 @@ MonoBehaviour:
   version:
   - price: 14
     priceSell: 12
-    fireRate: 0
+    fireRate: 1
     rangeShoot: 3
     damagePower: 1
     stuntDuration: 1
