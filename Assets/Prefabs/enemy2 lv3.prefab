@@ -765,8 +765,8 @@ MonoBehaviour:
   delay: 1
   healthBarEnemy: {fileID: 8638331461675611048}
   basicSpeed: 2
-  basicHP: 2
-  basicResource: 30
+  basicHP: 8
+  basicResource: 4
 --- !u!54 &-7566819840550988404
 Rigidbody:
   m_ObjectHideFlags: 0

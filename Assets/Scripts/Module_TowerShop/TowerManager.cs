@@ -27,7 +27,6 @@ namespace Plantastic.Module_TowerShop
                 TowerContainer newTower = new TowerContainer(null,a[i], null, a[i].transform.position, 0);
                 towerList.Add(newTower);
             }
-            Resource.Instance.AddResource(599);
         }
 
         #region New Tower
