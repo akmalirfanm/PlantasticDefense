@@ -57,6 +57,7 @@ namespace Plantastic.Module_Enemy
             {
                 StoreToPool();
                 //gameObject.SetActive(false);
+                healthBarEnemy.fillAmount = hp;
                 return;
             }
 

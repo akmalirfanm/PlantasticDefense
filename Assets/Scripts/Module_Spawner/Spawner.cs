@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 using Plantastic.Module_PoolingSystem;
 using Plantastic.Module_Enemy;
 
@@ -21,6 +22,9 @@ namespace Plantastic.Module_Spawner
         private int waveIndex = 1;
 		[SerializeField]
 		private int totalWave;
+
+		[SerializeField]
+		TextMeshProUGUI waveText;
 
 		void Update()
 		{
@@ -49,6 +53,7 @@ namespace Plantastic.Module_Spawner
 				{
 					SpawnEnemy();
 					yield return new WaitForSeconds(1f);
+					StartCoroutine(WaveSpawnText(waveIndex));
 				}
 				waveIndex++;
 			}
@@ -84,6 +89,13 @@ namespace Plantastic.Module_Spawner
 			yield return new WaitForSeconds(.5f);
 			//index parameter diisi data tower dari scriptable object tower mana yang dibeli
 			bulletControlls[0].CreateObject(transform.position);
+		}
+		IEnumerator WaveSpawnText(int i)
+        {
+			waveText.gameObject.SetActive(true);
+			waveText.text = "WAVE : " + i;
+			yield return new WaitForSeconds(1f);
+			waveText.gameObject.SetActive(false);
 		}
     }
 
