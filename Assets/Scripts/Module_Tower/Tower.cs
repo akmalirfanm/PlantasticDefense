@@ -13,7 +13,6 @@ public class Tower : MonoBehaviour, ITowerClicked
     public float stuntDuration;
     public float slowDuration;
 
-	public LineRenderer lineRenderer;
 	private Transform target;
 	private EnemyBasic targetEnemy;
 
@@ -28,14 +27,18 @@ public class Tower : MonoBehaviour, ITowerClicked
 
 	public GameObject bulletPrefab;
 
+	[SerializeField]
+	private GameObject circleRange;
+
 	public void StartTowerClicked()
     {
+		circleRange.SetActive(true);
 
-    }
+	}
     public void EndTowerClicked()
     {
-
-    }
+		circleRange.SetActive(false);
+	}
 
     void Start()
     {
@@ -57,8 +60,9 @@ public class Tower : MonoBehaviour, ITowerClicked
 			}
 		}
 
-		if (nearestEnemy != null && shortestDistance <= rangeShoot)
+		if (nearestEnemy != null && shortestDistance <= rangeShoot/2)
 		{
+			Debug.Log(shortestDistance);
 			target = nearestEnemy.transform;
 			targetEnemy = nearestEnemy.GetComponent<EnemyBasic>();
 		}
@@ -71,6 +75,9 @@ public class Tower : MonoBehaviour, ITowerClicked
 
 	void Update()
 	{
+
+		SetCircleRange();
+
 		if (target == null)
 		{
 
@@ -87,6 +94,8 @@ public class Tower : MonoBehaviour, ITowerClicked
 
 		fireCountdown -= Time.deltaTime;
 
+		
+
 	}
 
 	void LockOnTarget()
@@ -102,12 +111,20 @@ public class Tower : MonoBehaviour, ITowerClicked
 		GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
 		BulletScript bullet = bulletGO.GetComponent<BulletScript>();
 		if (bullet != null)
+        {
 			bullet.SetBulletData(target, damagePower, stuntDuration, slowDuration);
+		}
+		BulletAOE bulletaoe = bulletGO.GetComponent<BulletAOE>();
+		if (bulletaoe != null)
+        {
+			bulletaoe.SetBulletData(target, damagePower, stuntDuration, slowDuration);
+		}
+			
 	}
 
-	void OnDrawGizmosSelected()
-	{
-		Gizmos.color = Color.red;
-		Gizmos.DrawWireSphere(transform.position, rangeShoot);
+	private void SetCircleRange()
+    {
+		circleRange.transform.localScale = new Vector3(rangeShoot, rangeShoot, rangeShoot);
+
 	}
 }

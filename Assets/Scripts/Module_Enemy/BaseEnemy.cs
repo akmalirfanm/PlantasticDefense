@@ -49,7 +49,6 @@ namespace Plantastic.Module_Enemy
         protected virtual void Update()
         {
             Move();
-            OnDamage();
         }
         private void GetNextWaypoint()
         {
