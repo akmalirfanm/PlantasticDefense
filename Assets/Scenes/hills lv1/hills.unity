@@ -4946,7 +4946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offsetPos: {x: 0, y: 0.5, z: 0}
+  offsetPos: {x: 0, y: 0, z: 0}
   isFull: 0
 --- !u!1001 &166456553
 PrefabInstance:
@@ -35033,7 +35033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offsetPos: {x: 0, y: 0.5, z: 0}
+  offsetPos: {x: 0, y: 0, z: 0}
   isFull: 0
 --- !u!1001 &1127537392
 PrefabInstance:
@@ -37368,7 +37368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offsetPos: {x: 0, y: 0.5, z: 0}
+  offsetPos: {x: 0, y: 0, z: 0}
   isFull: 0
 --- !u!1001 &1193017420
 PrefabInstance:
@@ -42387,7 +42387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offsetPos: {x: 0, y: 0.5, z: 0}
+  offsetPos: {x: 0, y: 0, z: 0}
   isFull: 0
 --- !u!1 &1295481323 stripped
 GameObject:
@@ -69004,7 +69004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offsetPos: {x: 0, y: 0.5, z: 0}
+  offsetPos: {x: 0, y: 0, z: 0}
   isFull: 0
 --- !u!1001 &1969693585
 PrefabInstance:
@@ -69102,7 +69102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f76cded5300fda4c83341ea82fe9ce9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offsetPos: {x: 0, y: 0.5, z: 0}
+  offsetPos: {x: 0, y: 0, z: 0}
   isFull: 0
 --- !u!1001 &1974465381
 PrefabInstance:
@@ -75594,7 +75594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1885e9c326d5482428ba8d5c8ee5a34d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPref: {fileID: 6787161154536461091, guid: 4b1a9d28a6be386438105ba3fd6bb652, type: 3}
+  towerPref: {fileID: 3940710616022012755, guid: 5538141845643d54b94e6dd3d399c006, type: 3}
   towerData: {fileID: 11400000, guid: 6774e9d0dde678549ad7d5df76c49d9a, type: 2}
   placeLayer:
     serializedVersion: 2
@@ -75666,7 +75666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1885e9c326d5482428ba8d5c8ee5a34d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPref: {fileID: 6787161154536461091, guid: 4b1a9d28a6be386438105ba3fd6bb652, type: 3}
+  towerPref: {fileID: 8128157008700999535, guid: 2cb9f415abddfa94eb37c45ca416dd3e, type: 3}
   towerData: {fileID: 11400000, guid: 6774e9d0dde678549ad7d5df76c49d9a, type: 2}
   placeLayer:
     serializedVersion: 2
@@ -75684,7 +75684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1885e9c326d5482428ba8d5c8ee5a34d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPref: {fileID: 6787161154536461091, guid: 4b1a9d28a6be386438105ba3fd6bb652, type: 3}
+  towerPref: {fileID: 849670516607712396, guid: a278c3027353fc7429b69f71e6831ce5, type: 3}
   towerData: {fileID: 11400000, guid: 6774e9d0dde678549ad7d5df76c49d9a, type: 2}
   placeLayer:
     serializedVersion: 2
@@ -75702,7 +75702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1885e9c326d5482428ba8d5c8ee5a34d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPref: {fileID: 6787161154536461091, guid: 4b1a9d28a6be386438105ba3fd6bb652, type: 3}
+  towerPref: {fileID: 5160504869820882224, guid: 49979c00e21a8714ebcde07aa050348e, type: 3}
   towerData: {fileID: 11400000, guid: 6774e9d0dde678549ad7d5df76c49d9a, type: 2}
   placeLayer:
     serializedVersion: 2

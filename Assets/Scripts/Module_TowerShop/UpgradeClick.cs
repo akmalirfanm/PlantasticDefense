@@ -27,10 +27,6 @@ namespace Plantastic.Module_TowerShop
             {
                 if (!CheckClickTower())
                 {
-                    if (_tempClick != null)
-                    {
-                       _tempClick.EndTowerClicked();
-                    }
                     HideUpgradePanel();
                 }
             }
@@ -61,6 +57,8 @@ namespace Plantastic.Module_TowerShop
         {
             _upgradePanel.SetActive(false);
             isAnyTowerClicked = false;
+            if(_tempClick != null)
+                _tempClick.EndTowerClicked();
         }
 
     }

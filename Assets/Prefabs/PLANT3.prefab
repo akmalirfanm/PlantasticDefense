@@ -74,6 +74,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5160504869820882226}
   - component: {fileID: 5160504869820882225}
+  - component: {fileID: -2247371076903386399}
   m_Layer: 0
   m_Name: PLANT3
   m_TagString: Untagged
@@ -127,6 +128,20 @@ MonoBehaviour:
   towerObjectParent: {fileID: 5160504868986302155}
   towerObject: {fileID: 2628609223963070613}
   circleRange: {fileID: 5160504869930877467}
+--- !u!136 &-2247371076903386399
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5160504869820882224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.55
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.5, z: -0.17}
 --- !u!1 &5160504869930877467
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,7 +158,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5160504869930877468
 Transform:
   m_ObjectHideFlags: 0
