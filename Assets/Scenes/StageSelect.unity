@@ -176,14 +176,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 869945b6c8c575b418dcd27cee558c0e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -350,7 +350,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.045333337, y: 0.16022225}
   m_AnchorMax: {x: 0.9682084, y: 0.8332963}
-  m_AnchoredPosition: {x: -6.3488, y: 3.5}
+  m_AnchoredPosition: {x: -6.348816, y: 3.5}
   m_SizeDelta: {x: -12.698, y: 7.3842}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1004387384
@@ -650,11 +650,11 @@ MonoBehaviour:
     - name: Grassland
       nameScene: hills
       unlocked: 1
-      iconImage: {fileID: 21300000, guid: f9647594ea5cf7149adced0aae1dd4a1, type: 3}
+      iconImage: {fileID: 21300000, guid: 1709724f5b0806a479112971ce0ec6ed, type: 3}
     - name: Dessert
       nameScene: desert
       unlocked: 0
-      iconImage: {fileID: 21300000, guid: f9647594ea5cf7149adced0aae1dd4a1, type: 3}
+      iconImage: {fileID: 21300000, guid: 926b4b59e4b0fbf43b4d76c5227bee3b, type: 3}
 --- !u!4 &1334809621
 Transform:
   m_ObjectHideFlags: 0
