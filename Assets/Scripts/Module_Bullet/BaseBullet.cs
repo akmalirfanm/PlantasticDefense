@@ -11,10 +11,12 @@ public abstract class BaseBullet : MonoBehaviour
 
     [SerializeField]
     private float speed;
+
+    private float waitTime = 3;
     // Start is called before the first frame update
     void Start()
     {
-        
+        waitTime = 3;
     }
 
     // Update is called once per frame
@@ -32,6 +34,7 @@ public abstract class BaseBullet : MonoBehaviour
             targetEnemy = null;
             var step = speed * Time.deltaTime;
             transform.Translate(Vector3.forward * step);
+            WaitDestroy();
 
             /*
             var step = speed * Time.deltaTime;
@@ -44,6 +47,16 @@ public abstract class BaseBullet : MonoBehaviour
 
     void OnBecameInvisible()
     {
+        Destroy(gameObject);
+    }
+
+    private void WaitDestroy()
+    {
+        waitTime -= Time.deltaTime;
+        if(waitTime > 0)
+        {
+            return;
+        }
         Destroy(gameObject);
     }
 }
