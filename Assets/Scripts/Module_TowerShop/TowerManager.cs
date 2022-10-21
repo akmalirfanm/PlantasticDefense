@@ -48,6 +48,7 @@ namespace Plantastic.Module_TowerShop
             
             _tower = new(towerData, _tower.towerPlace, _newTower, pos, 1);
             towerList[i] = _tower;
+            towerList[i].towerObj.GetComponent<Tower>().isReady = true;
         }
         #endregion
 
@@ -104,6 +105,9 @@ namespace Plantastic.Module_TowerShop
             //restore data to tower list
             towerList[i] = _tower;
 
+            // set model of prefab
+            towerList[i].towerObj.GetComponent<Tower>().SetTowerObject(towerList[i].currentVersion);
+
             InitialUpgradeData(pos);
         }
  
@@ -115,7 +119,6 @@ namespace Plantastic.Module_TowerShop
 
             if (_tower.currentVersion >= t.towerData.version.Length)
             {
-                Debug.Log("Alredy Max Version");
                 return false;
             }
             SetDataTower(pos, t.towerData, t.towerObj);

@@ -28,6 +28,7 @@ namespace Plantastic.Module_TowerShop
         public void OnBeginDrag(PointerEventData eventData)
         {
             _currentTowerToBuild = Instantiate(towerPref);
+            _currentTowerToBuild.GetComponent<Tower>().circleRange.SetActive(true);
             TowerFollowMouse(); 
         }
         public void OnDrag(PointerEventData eventData)
@@ -55,9 +56,13 @@ namespace Plantastic.Module_TowerShop
                 {
                     isRightPlace = true;
                     _towerPlace = hitInfo.collider.GetComponent<TowerPlacement>();
+                    _currentTowerToBuild.GetComponent<Tower>().SetColorRange(Color.white);
                 }
                 else
+                {
                     isRightPlace = false;
+                    _currentTowerToBuild.GetComponent<Tower>().SetColorRange(Color.red);
+                }       
             }
         }
     }

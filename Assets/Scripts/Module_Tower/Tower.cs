@@ -36,7 +36,17 @@ public class Tower : MonoBehaviour, ITowerClicked
 	private GameObject towerObject;
 
 	[SerializeField]
-	private GameObject circleRange;
+	public GameObject circleRange;
+
+	private Animator _animator;
+
+	[HideInInspector]
+	public bool isReady;
+	public void SetColorRange(Color code)
+    {
+		SpriteRenderer _circle = circleRange.GetComponent<SpriteRenderer>();
+		_circle.color = code;
+	}
 
 	public void StartTowerClicked()
     {
@@ -83,26 +93,25 @@ public class Tower : MonoBehaviour, ITowerClicked
 
 	void Update()
 	{
+		if (isReady)
+        {
+			if (target == null)
+			{
 
-		SetCircleRange();
+				return;
+			}
 
-		if (target == null)
-		{
+			LockOnTarget();
 
-			return;
+			if (fireCountdown <= 0f)
+			{
+				if (isReady)
+					Shoot();
+				fireCountdown = 1f / fireRate;
+			}
+
+			fireCountdown -= Time.deltaTime;
 		}
-
-		LockOnTarget();
-
-		if (fireCountdown <= 0f)
-		{
-			Shoot();
-			fireCountdown = 1f / fireRate;
-		}
-
-		fireCountdown -= Time.deltaTime;
-
-		
 
 	}
 
@@ -116,6 +125,8 @@ public class Tower : MonoBehaviour, ITowerClicked
 
 	void Shoot()
 	{
+		_animator = partToRotate.transform.GetChild(1).GetComponent<Animator>();
+		_animator.SetTrigger("attack");
 		GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
 		BulletScript bullet = bulletGO.GetComponent<BulletScript>();
 		if (bullet != null)
@@ -141,5 +152,6 @@ public class Tower : MonoBehaviour, ITowerClicked
 		Destroy(towerObject);
 		GameObject plant =  Instantiate(towerLevelObject[index - 1], towerObjectParent.transform);
 		towerObject = plant;
+		SetCircleRange();
 	}
 }
