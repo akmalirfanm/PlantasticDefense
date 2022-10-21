@@ -8,6 +8,9 @@ namespace Plantastic.Module_Resource
     {
         public static Resource Instance;
 
+        [SerializeField]
+        private int setStartResources;
+
         public int _totalResource { get; private set; }
 
         private void Awake()
@@ -18,6 +21,8 @@ namespace Plantastic.Module_Resource
             }
             else
                 Destroy(gameObject);
+
+            _totalResource = setStartResources;
         }
         
         public bool IsResourceEnough(int value)
