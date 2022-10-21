@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class GameFlow : MonoBehaviour
 {
@@ -21,6 +22,9 @@ public class GameFlow : MonoBehaviour
 
     [SerializeField]
     private GameScene gamescene;
+
+    [SerializeField]
+    private TextMeshProUGUI resultText;
 
     private void OnEnable()
     {
@@ -80,14 +84,14 @@ public class GameFlow : MonoBehaviour
 
     private void SetLose()
     {
-        Debug.Log("LOSER");
         gamescene.GetComponent<GameScene>().ShowResult("lose");
+        resultText.text = "DEFEAT";
     }
 
     private void SetWin()
     {
-        Debug.Log("WINNER");
         gamescene.GetComponent<GameScene>().ShowResult("win");
+        resultText.text = "VICTORY";
     }
 
     private void DecreaseHp(object data)

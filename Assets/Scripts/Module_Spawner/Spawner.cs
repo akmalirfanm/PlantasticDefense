@@ -27,6 +27,8 @@ namespace Plantastic.Module_Spawner
 
 		[SerializeField]
 		TextMeshProUGUI waveText;
+		[SerializeField]
+		GameObject BG;
 
 		[SerializeField]
 		private GameFlow gameFlow;
@@ -98,9 +100,11 @@ namespace Plantastic.Module_Spawner
 		IEnumerator WaveSpawnText(int i)
         {
 			waveText.gameObject.SetActive(true);
+			BG.SetActive(true);
 			waveText.text = "WAVE : " + i;
 			yield return new WaitForSeconds(1f);
 			waveText.gameObject.SetActive(false);
+			BG.SetActive(false);
 		}
     }
 
