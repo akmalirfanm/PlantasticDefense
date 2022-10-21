@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Plantastic.Module_Spawner;
+using Plantastic.Module_Resource;
 
 namespace Plantastic.Module_Enemy
 {
@@ -39,9 +40,8 @@ namespace Plantastic.Module_Enemy
             if (hp <= 0)
             {
                 speed = basicSpeed;
-                /*gameObject.SetActive(false);*/
                 EventManager.TriggerEvent("SFXMessage", "SFX_Test");
-                handle.AddResource(basicResource);
+                Resource.Instance.AddResource(basicResource);
                 Debug.Log(handle.resource);
                 healthBarEnemy.fillAmount = basicHP;
                 StoreToPool();

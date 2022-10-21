@@ -25,13 +25,13 @@ MonoBehaviour:
     priceSell: 6
     fireRate: 2
     rangeShoot: 5
-    damagePower: 6
+    damagePower: 4
     stuntDuration: 0
     slowDuration: 0
   - price: 12
     priceSell: 10
     fireRate: 4
     rangeShoot: 6
-    damagePower: 8
+    damagePower: 4
     stuntDuration: 0
     slowDuration: 0

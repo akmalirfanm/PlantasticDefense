@@ -18,6 +18,8 @@ namespace Plantastic.Module_Spawner
 		[SerializeField]
         private float delaySpawn;
         private float countdown = 1f;
+		[SerializeField]
+		private float enemyDelay;
 
         private int waveIndex = 1;
 		[SerializeField]
@@ -55,7 +57,7 @@ namespace Plantastic.Module_Spawner
 					SpawnEnemy();
 					StartCoroutine(WaveSpawnText(waveIndex));
 					gameFlow.SetCurrentWave(waveIndex);
-					yield return new WaitForSeconds(1f);
+					yield return new WaitForSeconds(enemyDelay);
 					
 				}
 				waveIndex++;

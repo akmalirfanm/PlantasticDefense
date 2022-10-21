@@ -944,7 +944,7 @@ MonoBehaviour:
   healthBarEnemy: {fileID: 1213684509}
   basicSpeed: 3
   basicHP: 10
-  basicResource: 10
+  basicResource: 2
 --- !u!54 &5494001944414372716
 Rigidbody:
   m_ObjectHideFlags: 0
