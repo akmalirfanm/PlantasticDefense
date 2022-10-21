@@ -19,6 +19,9 @@ public class GameFlow : MonoBehaviour
     [SerializeField]
     private float playerHP;
 
+    [SerializeField]
+    private GameScene gamescene;
+
     private void OnEnable()
     {
         EventManager.StartListening("AddEnemyCount", AddEnemyCount);
@@ -32,11 +35,6 @@ public class GameFlow : MonoBehaviour
         EventManager.StopListening("AddEnemySpawnCount", AddSpawnedEnemyCount);
         EventManager.StopListening("CheckWinLose", CheckWinLoseCondition);
         EventManager.StopListening("DecreaseHP", DecreaseHp);
-    }
-
-    private void Update()
-    {
-        
     }
 
     public void AddSpawnedEnemyCount()
@@ -83,16 +81,19 @@ public class GameFlow : MonoBehaviour
     private void SetLose()
     {
         Debug.Log("LOSER");
+        gamescene.GetComponent<GameScene>().ShowResult("lose");
     }
 
     private void SetWin()
     {
         Debug.Log("WINNER");
+        gamescene.GetComponent<GameScene>().ShowResult("win");
     }
 
     private void DecreaseHp(object data)
     {
         float hp = (float)data;
         playerHP -= hp;
+        EventManager.TriggerEvent("UpdateHP", playerHP);
     }
 }
