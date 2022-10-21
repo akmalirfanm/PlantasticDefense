@@ -50,6 +50,7 @@ namespace Plantastic.Module_Enemy
 
         public override void OnCreate()
         {
+            EventManager.TriggerEvent("AddEnemySpawnCount");
             waypointIndex = 0;
             target = FindObjectOfType<EnemyWayPoints>().waypoints[0];
         }

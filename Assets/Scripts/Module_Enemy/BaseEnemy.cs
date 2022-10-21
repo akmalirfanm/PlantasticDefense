@@ -54,6 +54,7 @@ namespace Plantastic.Module_Enemy
         {
             if (waypointIndex >= FindObjectOfType<EnemyWayPoints>().waypoints.Length - 1)
             {
+                EventManager.TriggerEvent("DecreaseHP", hp);
                 StoreToPool();
                 //gameObject.SetActive(false);
                 healthBarEnemy.fillAmount = hp;
@@ -99,6 +100,8 @@ namespace Plantastic.Module_Enemy
 
         public virtual void StoreToPool()
         {
+            EventManager.TriggerEvent("AddEnemyCount", 1);
+            EventManager.TriggerEvent("CheckWinLose");
             poolingSystem.Store(this);
             gameObject.SetActive(false);
         }

@@ -26,6 +26,8 @@ namespace Plantastic.Module_Spawner
 		[SerializeField]
 		TextMeshProUGUI waveText;
 
+		[SerializeField]
+		private GameFlow gameFlow;
 		void Update()
 		{
 
@@ -52,14 +54,21 @@ namespace Plantastic.Module_Spawner
 				{
 					SpawnEnemy();
 					StartCoroutine(WaveSpawnText(waveIndex));
+					gameFlow.SetCurrentWave(waveIndex);
 					yield return new WaitForSeconds(1f);
 					
 				}
 				waveIndex++;
+				
 			}
 			
         }
-		void SpawnEnemy()
+
+        private void Start()
+        {
+			gameFlow.SetTotalWave(totalWave + 1);
+		}
+        void SpawnEnemy()
         {
             int _random = Random.Range(0, controlls.Length);
 			int _weakEnemy = Random.Range(0, controlls.Length-2);
