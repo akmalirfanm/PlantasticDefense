@@ -25,13 +25,25 @@ namespace Plantastic.Module_StageStatus
             }
             
         }
-        public void DataToSave()
+        void DataToSave()
         {
             PlayerPrefs.SetString("Stage Data", JsonUtility.ToJson(stageData));
         }
-        public void LoadData()
+        void LoadData()
         {
             stageData = JsonUtility.FromJson<StageList>(PlayerPrefs.GetString("Stage Data"));
+        }
+
+        public void OnGameFinished(string nameScene)
+        {
+            for(int i = 0; i < stageData.stage.Length; i++)
+            {
+                if(stageData.stage[i].nameScene == nameScene)
+                {
+                    stageData.stage[i].unlocked = true;
+                    DataToSave();
+                }
+            }
         }
     }
 }
