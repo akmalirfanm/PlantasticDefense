@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+using Plantastic.Module_StageStatus;
+using UnityEngine.SceneManagement;
 public class GameFlow : MonoBehaviour
 {
     [SerializeField]
@@ -94,6 +95,7 @@ public class GameFlow : MonoBehaviour
         gamescene.GetComponent<GameScene>().ShowResult("win");
         resultText.text = "VICTORY";
         EventManager.TriggerEvent("SFXMessage", "Win");
+        StageStatus.Instance.OnGameFinished(SceneManager.GetActiveScene().name);
     }
 
     private void DecreaseHp(object data)
