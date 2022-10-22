@@ -17410,12 +17410,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a526d022dc58f31428cdb66b3d656045, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cam: {fileID: 589970455}
-  cam: {fileID: 589970452}
-  scrollSpeed: 0.5
-  limitZoomSize: 5
-  moveSpeed: 0.2
-  limitMove: 0.54
+  zoomOutMin: 1
+  zoomOutMax: 9
+  _groundList: []
 --- !u!1001 &590075921
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29922,7 +29919,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

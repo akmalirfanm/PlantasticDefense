@@ -33,7 +33,6 @@ public class CameraController : MonoBehaviour
 
 
 
-        Debug.Log("canpan" + canPan);
         if (Input.GetMouseButtonDown(0))
         {
                     RaycastHit hit;
@@ -43,16 +42,14 @@ public class CameraController : MonoBehaviour
                     {
                          touchStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-                        if (hit.collider != null &&  hit.collider.gameObject.tag == "Ground" && !EventSystem.current.IsPointerOverGameObject())
+                        if (hit.collider != null &&  hit.collider.gameObject.tag == "Tower Placement" && !EventSystem.current.IsPointerOverGameObject())
                         {
                             canPan = true;
-                            Debug.Log(hit.collider.name);
                         }
 
-                if (hit.collider == null || hit.collider.gameObject.tag != "Ground")
+                if (hit.collider == null || hit.collider.gameObject.tag != "Tower Placement")
                 {
                     canPan = false;
-                    Debug.Log(hit.collider.name);
                 }
                     }
         }

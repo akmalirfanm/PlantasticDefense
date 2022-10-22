@@ -5975,6 +5975,7 @@ GameObject:
   - component: {fileID: 589970452}
   - component: {fileID: 589970451}
   - component: {fileID: 589970454}
+  - component: {fileID: 589970456}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6086,6 +6087,21 @@ RectTransform:
   m_AnchoredPosition: {x: -3.35, y: 6.59}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &589970456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589970450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a526d022dc58f31428cdb66b3d656045, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoomOutMin: 1
+  zoomOutMax: 9
+  _groundList: []
 --- !u!1001 &590075921
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27794,7 +27810,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
