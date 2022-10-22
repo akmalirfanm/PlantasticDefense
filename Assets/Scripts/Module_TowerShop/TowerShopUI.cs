@@ -32,6 +32,7 @@ namespace Plantastic.Module_TowerShop
 
             _upText = _upButton.GetComponentInChildren<TextMeshProUGUI>();
             _sellText = _sellButton.GetComponentInChildren<TextMeshProUGUI>();
+
         }
         private void Update()
         {
@@ -50,12 +51,16 @@ namespace Plantastic.Module_TowerShop
             }
             var r = Resource.Instance;
             if (!r.IsResourceEnough(priceUpgrade))
-                return;
+                
+                
+            return;
             r.SpentResource(priceUpgrade);
+            EventManager.TriggerEvent("SFXMessage", "Tower Upgrade 2");
         }
         void SellButton()
         {
             TowerManager.Instance.RemoveTower(posTower);
+            EventManager.TriggerEvent("SFXMessage", "Sell");
             Resource.Instance.AddResource(priceSell);
         }
         public void SetUpText(bool max)

@@ -18,6 +18,7 @@ public class Trailer : MonoBehaviour
     {
         vp = GetComponent<VideoPlayer>();
         time = vp.clip.length;
+        EventManager.TriggerEvent("BGMMessage", "Main Menu");
     }
 
     void Update()

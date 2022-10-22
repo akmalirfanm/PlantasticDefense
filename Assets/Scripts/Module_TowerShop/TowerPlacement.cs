@@ -18,6 +18,7 @@ namespace Plantastic.Module_TowerShop
             }
             TowerManager.Instance.BuildNewTower(tower, transform.position + offsetPos, dataTower);
             isFull = true;
+            EventManager.TriggerEvent("SFXMessage", "Build Plant");
         }
     }
 }

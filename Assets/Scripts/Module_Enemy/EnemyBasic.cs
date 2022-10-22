@@ -31,18 +31,15 @@ namespace Plantastic.Module_Enemy
 
         public void GetDamage(float damage, float stunt, float slow)
         {
-            Debug.Log(hp / basicHP);
             hp -= damage;
             StartCoroutine(StunEffect(basicSpeed, stunt));
             StartCoroutine(SlowEffect(basicSpeed, slow));
             healthBarEnemy.fillAmount = hp / basicHP;
-            Debug.Log(hp / basicHP);
             if (hp <= 0)
             {
                 speed = basicSpeed;
-                EventManager.TriggerEvent("SFXMessage", "SFX_Test");
+                EventManager.TriggerEvent("SFXMessage", "Stun");
                 Resource.Instance.AddResource(basicResource);
-                Debug.Log(handle.resource);
                 healthBarEnemy.fillAmount = basicHP;
                 StoreToPool();
             }

@@ -1846,9 +1846,6 @@ MonoBehaviour:
   _sfxOffButton: {fileID: 1599238415}
   _bgmOnButton: {fileID: 827987010}
   _bgmOffButton: {fileID: 1454255170}
-  _lowButton: {fileID: 0}
-  _medButton: {fileID: 0}
-  _highButton: {fileID: 0}
   _backButton: {fileID: 825907752}
   _finishButton: {fileID: 162276224}
   _settingPanel: {fileID: 155201701}
@@ -3235,7 +3232,6 @@ GameObject:
   - component: {fileID: 1311089813}
   - component: {fileID: 1311089812}
   - component: {fileID: 1311089811}
-  - component: {fileID: 1311089810}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -3243,102 +3239,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!82 &1311089810
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1311089809}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!82 &1311089811
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3349,7 +3249,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: eea0249182f254b42bf94194d0ca388c, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -3448,9 +3348,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _bgmSource: {fileID: 1311089811}
-  _sfxSource: {fileID: 1311089810}
+  _sfxSource: {fileID: 1311089811}
   clips:
-  - {fileID: 8300000, guid: 1643a61686169bc4fab111f9cc602680, type: 3}
+  - {fileID: 8300000, guid: 724d7ff2f8234ca49b57c1f753b13553, type: 3}
+  - {fileID: 8300000, guid: 17efb62b5aa3cd04db8da0f52438752e, type: 3}
+  - {fileID: 8300000, guid: 464d99d25f852fe488e542ef80e3c530, type: 3}
+  - {fileID: 8300000, guid: f71ba2c89842ebe4b90bf4c1b515f51c, type: 3}
+  - {fileID: 8300000, guid: 8964603bc54a13c46ad89ba72de14d72, type: 3}
+  - {fileID: 8300000, guid: 2d68781a341e57b41b928bc0bcab0284, type: 3}
+  - {fileID: 8300000, guid: cf0fa4d7deaaac445bc9ac413424a762, type: 3}
+  - {fileID: 8300000, guid: ca848c434b9a4fa40bfc8f0640b4f060, type: 3}
+  - {fileID: 8300000, guid: 5957476a08525094eb408586a27676c7, type: 3}
 --- !u!4 &1311089813
 Transform:
   m_ObjectHideFlags: 0

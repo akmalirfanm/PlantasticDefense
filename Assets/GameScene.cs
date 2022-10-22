@@ -63,7 +63,10 @@ public class GameScene : MonoBehaviour
         nextButton.onClick.AddListener(Next);
     }
 
-
+    private void Start()
+    {
+        EventManager.TriggerEvent("BGMMessage", "Cutscene");
+    }
     private void OnEnable()
     {
         EventManager.StartListening("UpdateHP", OnUpdateHP);

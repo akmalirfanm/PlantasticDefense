@@ -63,7 +63,7 @@ public class GameFlow : MonoBehaviour
 
     private void CheckWinLoseCondition()
     {
-        if (currentWave == totalWave)
+        if (currentWave >= totalWave)
         {
             CheckWin();
         }
@@ -86,12 +86,14 @@ public class GameFlow : MonoBehaviour
     {
         gamescene.GetComponent<GameScene>().ShowResult("lose");
         resultText.text = "DEFEAT";
+        EventManager.TriggerEvent("SFXMessage", "Lose");
     }
 
     private void SetWin()
     {
         gamescene.GetComponent<GameScene>().ShowResult("win");
         resultText.text = "VICTORY";
+        EventManager.TriggerEvent("SFXMessage", "Win");
     }
 
     private void DecreaseHp(object data)

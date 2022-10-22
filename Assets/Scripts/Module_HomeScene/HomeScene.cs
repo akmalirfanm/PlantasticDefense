@@ -26,6 +26,11 @@ namespace Plantastic.Module_HomeScene
             _settingButton.onClick.AddListener(OpenSettingPanel);
             _quitButton.onClick.RemoveAllListeners();
             _quitButton.onClick.AddListener(QuitGame);
+            
+        }
+        private void Start()
+        {
+            EventManager.TriggerEvent("BGMMessage", "Main Menu");
         }
 
         private void OpenStageSelect()

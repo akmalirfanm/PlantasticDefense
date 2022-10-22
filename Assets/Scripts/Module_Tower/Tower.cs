@@ -80,7 +80,6 @@ public class Tower : MonoBehaviour, ITowerClicked
 
 		if (nearestEnemy != null && shortestDistance <= rangeShoot/2)
 		{
-			Debug.Log(shortestDistance);
 			target = nearestEnemy.transform;
 			targetEnemy = nearestEnemy.GetComponent<EnemyBasic>();
 		}

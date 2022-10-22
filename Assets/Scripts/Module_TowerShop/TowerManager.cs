@@ -64,9 +64,11 @@ namespace Plantastic.Module_TowerShop
             {
                 _shopUI.SetUpText(true);
                 return;
+                
             }
             _shopUI.priceUpgrade = v[towerList[i].currentVersion].price;
             _shopUI.SetUpText(false);
+
         }
 
         #region Set Data Tower

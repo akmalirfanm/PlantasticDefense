@@ -78,20 +78,20 @@ namespace Plantastic.Module_GameSetting
             int bgmDataHolder = PlayerPrefs.GetInt("BGM");
             if (bgmDataHolder == 1)
             {
-                isBgmOn = true;
+                isBgmOn = false;
             }
             else
             {
-                isBgmOn = false;
+                isBgmOn = true;
             }
             int sfxDataHolder = PlayerPrefs.GetInt("SFX");
             if (sfxDataHolder == 1)
             {
-                isSfxOn = true;
+                isSfxOn = false;
             }
             else
             {
-                isSfxOn = false;
+                isSfxOn = true;
             }
         }
     }

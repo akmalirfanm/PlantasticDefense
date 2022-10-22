@@ -13,10 +13,6 @@ namespace Plantastic.Module_GameSetting
         [SerializeField] private Button _bgmOnButton;
         [SerializeField] private Button _bgmOffButton;
 
-        [SerializeField] private Button _lowButton;
-        [SerializeField] private Button _medButton;
-        [SerializeField] private Button _highButton;
-
         [SerializeField] private Button _backButton;
         [SerializeField] private Button _finishButton;
         [SerializeField] private GameObject _settingPanel;
