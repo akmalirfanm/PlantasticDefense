@@ -45,15 +45,16 @@ namespace Plantastic.Module_TowerShop
         }
         void UpButton()
         {
-            if(!TowerManager.Instance.UpgradeSetData(posTower))
+            var r = Resource.Instance;
+            if (!r.IsResourceEnough(priceUpgrade))
             {
                 return;
             }
-            var r = Resource.Instance;
-            if (!r.IsResourceEnough(priceUpgrade))
-                
-                
-            return;
+            if (!TowerManager.Instance.UpgradeSetData(posTower))
+            {
+                return;
+            }
+            
             r.SpentResource(priceUpgrade);
             EventManager.TriggerEvent("SFXMessage", "Tower Upgrade 2");
         }

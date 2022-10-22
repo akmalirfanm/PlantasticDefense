@@ -67,6 +67,8 @@ namespace Plantastic.Module_TowerShop
                 
             }
             _shopUI.priceUpgrade = v[towerList[i].currentVersion].price;
+            Debug.Log("CurrentVersion : " + towerList[i].currentVersion);
+            Debug.Log("Price Upgrade : " + _shopUI.priceUpgrade);
             _shopUI.SetUpText(false);
 
         }
@@ -109,7 +111,6 @@ namespace Plantastic.Module_TowerShop
             // set model of prefab
             towerList[i].towerObj.GetComponent<Tower>().SetTowerObject(towerList[i].currentVersion);
 
-            InitialUpgradeData(pos);
         }
  
         public bool UpgradeSetData(Vector3 pos)

@@ -29,6 +29,8 @@ namespace Plantastic.Module_TowerShop
         {
             _currentTowerToBuild = Instantiate(towerPref);
             _currentTowerToBuild.GetComponent<Tower>().circleRange.SetActive(true);
+            _currentTowerToBuild.GetComponent<Tower>().rangeShoot = towerData.version[0].rangeShoot;
+            _currentTowerToBuild.GetComponent<Tower>().SetCircleRange();
             TowerFollowMouse(); 
         }
         public void OnDrag(PointerEventData eventData)

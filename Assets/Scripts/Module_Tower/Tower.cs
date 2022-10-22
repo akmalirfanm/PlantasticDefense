@@ -140,10 +140,9 @@ public class Tower : MonoBehaviour, ITowerClicked
 			
 	}
 
-	private void SetCircleRange()
+	public void SetCircleRange()
     {
 		circleRange.transform.localScale = new Vector3(rangeShoot, rangeShoot, rangeShoot);
-
 	}
 
 	public void SetTowerObject(int index)
