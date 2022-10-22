@@ -50,6 +50,7 @@ namespace Plantastic.Module_TowerShop
             Ray camray = mainCamera.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(camray, out RaycastHit hitInfo, float.MaxValue, placeLayer))
             {
+                //Vector3 pos = new Vector3(hitInfo.point.x, 0, hitInfo.point.z);
                 _currentTowerToBuild.transform.position = hitInfo.point;
                 if (hitInfo.collider.tag == tagTowerPlacement &&
                     hitInfo.collider.GetComponent<TowerPlacement>().isFull == false)

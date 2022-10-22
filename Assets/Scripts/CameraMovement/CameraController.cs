@@ -1,66 +1,106 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 
 public class CameraController : MonoBehaviour
 {
-    public RectTransform _cam;
-    public Camera cam;
-    public float scrollSpeed = 0.5f;
-    public float limitZoomSize = 5f;
 
-    public float moveSpeed = 0.2f;
-    public float limitMove = 0.54f;
-    float tempCamSize;
+    public float zoomOutMin = 1;
+    public float zoomOutMax = 9;
 
-    // q w E
-    // z y x
-    private void Start()
-    {
-        tempCamSize = cam.orthographicSize;
-        _cam = GetComponent<RectTransform>();
-    }
+    Vector3 touchStart;
+
+    private bool canPan;
+
+    private float limitX;
+    private float limitY;
+
+    float yMinLimit = 0f;
+    float yMaxLimit = 17f;
+
+    float xMinLimit = -14f;
+    float xMaxLimit = 7;
+
+    [SerializeField]
+    private List<GameObject> _groundList;
+
     private void Update()
     {
-        ZoomCamera();
-        MoveCamera();
-    }
-    void MoveCamera()
-    {
-        if(Input.GetKeyDown(KeyCode.Q))
+
+
+
+
+        Debug.Log("canpan" + canPan);
+        if (Input.GetMouseButtonDown(0))
         {
+                    RaycastHit hit;
+                    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+                    if (Physics.Raycast(ray, out hit))
+                    {
+                         touchStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+                        if (hit.collider != null &&  hit.collider.gameObject.tag == "Ground" && !EventSystem.current.IsPointerOverGameObject())
+                        {
+                            canPan = true;
+                            Debug.Log(hit.collider.name);
+                        }
+
+                if (hit.collider == null || hit.collider.gameObject.tag != "Ground")
+                {
+                    canPan = false;
+                    Debug.Log(hit.collider.name);
+                }
+                    }
+        }
+
+        if (Input.GetMouseButtonUp(0))
+        {
+            canPan = false;
+        }
+
+        if (Input.touchCount == 2)
+        {
+            Touch touchZero = Input.GetTouch(0);
+            Touch touchOne = Input.GetTouch(1);
+
+            Vector2 touchZeroPrevPos = touchZero.position - touchZero.deltaPosition;
+            Vector2 touchOnePrevPos = touchOne.position - touchOne.deltaPosition;
+
+            float prevMagnitude = (touchZeroPrevPos - touchOnePrevPos).magnitude;
+            float currentMagnitude = (touchZero.position - touchOne.position).magnitude;
+
+            float difference = currentMagnitude - prevMagnitude;
+
+            Zoom(difference * 0.01f);
+        }
+
+        else if (Input.GetMouseButton(0) && canPan)
+        {
+                Vector3 direction = touchStart - Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                Camera.main.transform.position += direction;
             
         }
-        if(Input.GetKeyDown(KeyCode.W))
-        {
-
-        }
-        if(Input.GetKeyDown(KeyCode.E))
-        {
-
-        }
+        Zoom(Input.GetAxis("Mouse ScrollWheel") * 5);
     }
-    void ZoomCamera()
+
+    void Zoom(float increment)
     {
-        var limit = tempCamSize - limitZoomSize;
-        var _input = Input.GetAxis("Mouse ScrollWheel");
-        // zoom in
-        if (_input > 0f)
-        {
-            if (cam.orthographicSize > limit)
-            {
-                cam.orthographicSize -= 1 * scrollSpeed;
-            }
-        }
-        // zoom out
-        if (_input < 0f)
-        {
-            if (cam.orthographicSize < tempCamSize)
-            {
-                cam.orthographicSize += 1 * scrollSpeed;   
-            }
-        }
-    }    
+        Camera.main.orthographicSize = Mathf.Clamp(Camera.main.orthographicSize - increment, zoomOutMin, zoomOutMax);
+    }
+
+    public void AddGround(GameObject ground)
+    {
+        _groundList.Add(ground);
+    }
+
+    public void DeleteGround(GameObject ground)
+    {
+        int idx = _groundList.IndexOf(ground);
+       // _groundList.RemoveAt(idx);
+    }
+
 }
