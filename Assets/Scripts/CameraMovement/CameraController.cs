@@ -42,12 +42,13 @@ public class CameraController : MonoBehaviour
                     {
                          touchStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-                        if (hit.collider != null &&  hit.collider.gameObject.tag == "Tower Placement" && !EventSystem.current.IsPointerOverGameObject())
+                        if (hit.collider != null && !EventSystem.current.IsPointerOverGameObject())
                         {
+                             if(hit.collider.gameObject.tag == "Tower Placement" || hit.collider.gameObject.tag == "Ground")
                             canPan = true;
                         }
 
-                if (hit.collider == null || hit.collider.gameObject.tag != "Tower Placement")
+                if (hit.collider == null || hit.collider.gameObject.tag != "Tower Placement" || hit.collider.gameObject.tag == "Ground")
                 {
                     canPan = false;
                 }
