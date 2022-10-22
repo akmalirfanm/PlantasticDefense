@@ -65,6 +65,10 @@ namespace Plantastic.Module_Spawner
 				waveIndex++;
 				
 			}
+			else
+            {
+			//	waveIndex = 1;
+            }
 			
         }
 
