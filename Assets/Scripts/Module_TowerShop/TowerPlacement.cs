@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Plantastic.Module_Resource;
 
 namespace Plantastic.Module_TowerShop
 {
@@ -12,7 +13,7 @@ namespace Plantastic.Module_TowerShop
 
         public void BuildTower(GameObject tower, TowerDataSet dataTower)
         {
-            if (isFull)
+            if (isFull || !Resource.Instance.IsResourceEnough(dataTower.version[0].price))
             {
                 return;
             }
