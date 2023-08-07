@@ -95,7 +95,7 @@ public class GameFlow : MonoBehaviour
         gamescene.GetComponent<GameScene>().ShowResult("win");
         resultText.text = "VICTORY";
         EventManager.TriggerEvent("SFXMessage", "Win");
-        StageStatus.Instance.OnGameFinished(SceneManager.GetActiveScene().name);
+
     }
 
     private void DecreaseHp(object data)

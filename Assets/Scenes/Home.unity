@@ -2213,7 +2213,7 @@ GameObject:
   - component: {fileID: 1086094350}
   - component: {fileID: 1086094352}
   m_Layer: 5
-  m_Name: Image
+  m_Name: BGM_ICON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3129,7 +3129,7 @@ GameObject:
   - component: {fileID: 1278283826}
   - component: {fileID: 1278283825}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: SFX_ICON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
