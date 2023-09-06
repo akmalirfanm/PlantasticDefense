@@ -78,13 +78,9 @@ namespace Plantastic.Module_Enemy
 
             if(slowDelay > 0)
             {
-                Debug.Log("Slowed");
-
                 speed = speed * 0.5f;
                 yield return new WaitForSeconds(slowDelay);
                 speed = speedOrigin;
-
-                Debug.Log("Slowed DOne  ");
             }
             
         }
