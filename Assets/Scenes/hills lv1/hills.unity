@@ -35926,8 +35926,8 @@ MonoBehaviour:
   - basicPref: {fileID: 5892946244499521261, guid: d37d2dc49391399468a17a71b61165cc, type: 3}
   bulletControlls:
   - peluruPrefs: {fileID: 0}
-  delaySpawn: 7
-  enemyDelay: 1.5
+  delaySpawn: 10
+  enemyDelay: 3
   totalWave: 13
   waveText: {fileID: 950892636}
   BG: {fileID: 1216835999}
@@ -49192,7 +49192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: db9c79a4d160cab4fb3dd626677fb075, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.5
+      value: -7.71
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: db9c79a4d160cab4fb3dd626677fb075, type: 3}
       propertyPath: m_LocalRotation.w
@@ -70345,7 +70345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7271dcff0057efc438235a1335179d73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  setStartResources: 200
+  setStartResources: 14
 --- !u!4 &1835003976
 Transform:
   m_ObjectHideFlags: 0

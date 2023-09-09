@@ -671,10 +671,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d28be86eb9b5fb3498cda1ce25131e29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1
+  delay: 10
   healthBarEnemy: {fileID: 490929678904426680}
-  basicSpeed: 0.85
-  basicHP: 350
+  basicSpeed: 0.8
+  basicHP: 800
   basicResource: 0
 --- !u!54 &2662141477804933246
 Rigidbody:

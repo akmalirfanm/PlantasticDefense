@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfTower: Slow
   version:
-  - price: 8
-    priceSell: 6
+  - price: 6
+    priceSell: 4
     fireRate: 1
     rangeShoot: 4
-    damagePower: 1
+    damagePower: 3
     stuntDuration: 0
     slowDuration: 1
-  - price: 14
-    priceSell: 12
-    fireRate: 2
+  - price: 12
+    priceSell: 10
+    fireRate: 1
     rangeShoot: 5
-    damagePower: 2
+    damagePower: 5
     stuntDuration: 0
     slowDuration: 1.5
-  - price: 20
-    priceSell: 18
-    fireRate: 3
+  - price: 18
+    priceSell: 16
+    fireRate: 1
     rangeShoot: 6
-    damagePower: 3
+    damagePower: 10
     stuntDuration: 0
     slowDuration: 2

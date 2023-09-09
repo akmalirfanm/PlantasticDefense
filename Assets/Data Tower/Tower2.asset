@@ -14,24 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfTower: AOE
   version:
-  - price: 18
-    priceSell: 16
+  - price: 16
+    priceSell: 12
     fireRate: 1
     rangeShoot: 3
-    damagePower: 4
+    damagePower: 10
     stuntDuration: 0
     slowDuration: 0
-  - price: 24
-    priceSell: 22
+  - price: 22
+    priceSell: 18
     fireRate: 1
     rangeShoot: 4
-    damagePower: 4
+    damagePower: 15
     stuntDuration: 0
     slowDuration: 0
-  - price: 30
-    priceSell: 28
+  - price: 28
+    priceSell: 24
     fireRate: 2
     rangeShoot: 5
-    damagePower: 4
+    damagePower: 20
     stuntDuration: 0
     slowDuration: 0

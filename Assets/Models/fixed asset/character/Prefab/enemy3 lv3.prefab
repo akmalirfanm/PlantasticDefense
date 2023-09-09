@@ -940,10 +940,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d28be86eb9b5fb3498cda1ce25131e29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1
+  delay: 8
   healthBarEnemy: {fileID: 1213684509}
-  basicSpeed: 2
-  basicHP: 16
+  basicSpeed: 2.5
+  basicHP: 50
   basicResource: 2
 --- !u!54 &5494001944414372716
 Rigidbody:

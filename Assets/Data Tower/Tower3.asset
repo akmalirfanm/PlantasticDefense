@@ -14,23 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameOfTower: Stun
   version:
-  - price: 14
-    priceSell: 12
+  - price: 8
+    priceSell: 6
     fireRate: 1
     rangeShoot: 3
     damagePower: 1
     stuntDuration: 1
     slowDuration: 0
-  - price: 20
-    priceSell: 18
-    fireRate: 2
+  - price: 14
+    priceSell: 12
+    fireRate: 1
     rangeShoot: 4
     damagePower: 2
     stuntDuration: 1.5
     slowDuration: 0
-  - price: 28
-    priceSell: 26
-    fireRate: 3
+  - price: 20
+    priceSell: 18
+    fireRate: 1
     rangeShoot: 5
     damagePower: 3
     stuntDuration: 2
