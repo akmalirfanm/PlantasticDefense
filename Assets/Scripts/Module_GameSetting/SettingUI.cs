@@ -18,6 +18,8 @@ namespace Plantastic.Module_GameSetting
         [SerializeField] private GameObject _settingPanel;
         [SerializeField] private GameObject _sfxOffPanel;
         [SerializeField] private GameObject _bgmOffPanel;
+        [SerializeField] private GameObject _sfxOnPanel;
+        [SerializeField] private GameObject _bgmOnPanel;
 
         private void Awake()
         {
@@ -51,15 +53,15 @@ namespace Plantastic.Module_GameSetting
         private void OnClickSfxButton()
         {
             EventManager.TriggerEvent("SwitchSfxValueMessage");
-            if (GameSetting.instance.isSfxOn == true)
+            if (GameSetting.instance.isSfxOn == false)
             {
-                _sfxOffPanel.SetActive(false);
-
+                _sfxOffPanel.SetActive(true);
+                _sfxOnPanel.SetActive(false);
             }
             else
             {
-                _sfxOffPanel.SetActive(true);
-
+                _sfxOffPanel.SetActive(false);
+                _sfxOnPanel.SetActive(true);
             }
         }
 
@@ -69,12 +71,12 @@ namespace Plantastic.Module_GameSetting
             if (GameSetting.instance.isBgmOn == false)
             {
                 _bgmOffPanel.SetActive(true);
-
+                _bgmOnPanel.SetActive(false);
             }
             else
             {
                 _bgmOffPanel.SetActive(false);
-
+                _bgmOnPanel.SetActive(true);
             }
         }
 
