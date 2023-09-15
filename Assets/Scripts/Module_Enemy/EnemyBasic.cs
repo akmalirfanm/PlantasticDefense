@@ -37,6 +37,7 @@ namespace Plantastic.Module_Enemy
             healthBarEnemy.fillAmount = hp / basicHP;
             if (hp <= 0)
             {
+                EventManager.TriggerEvent("EnemyDie", null);
                 speed = basicSpeed;
                 EventManager.TriggerEvent("SFXMessage", "Stun");
                 Resource.Instance.AddResource(basicResource);

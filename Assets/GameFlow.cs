@@ -24,8 +24,6 @@ public class GameFlow : MonoBehaviour
     [SerializeField]
     private GameScene gamescene;
 
-    [SerializeField]
-    private TextMeshProUGUI resultText;
 
     private void OnEnable()
     {
@@ -89,16 +87,13 @@ public class GameFlow : MonoBehaviour
     private void SetLose()
     {
         gamescene.GetComponent<GameScene>().ShowResult("lose");
-        resultText.text = "DEFEAT";
         EventManager.TriggerEvent("SFXMessage", "Lose");
     }
 
     private void SetWin()
     {
         gamescene.GetComponent<GameScene>().ShowResult("win");
-        resultText.text = "VICTORY";
         EventManager.TriggerEvent("SFXMessage", "Win");
-
     }
 
     private void DecreaseHp(object data)

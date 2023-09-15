@@ -14,6 +14,15 @@ namespace Plantastic.Module_TowerShop
 
         List<TowerContainer> towerList = new List<TowerContainer>();
 
+        public int TowerDeployed
+        {
+            get
+            {
+                List<TowerContainer> _tower = towerList.FindAll(x => x.towerObj != null);
+                return _tower.Count;
+            }
+        }
+
         private void Awake()
         {
             if (Instance == null)

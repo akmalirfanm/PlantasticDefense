@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Plantastic.Module_TowerShop;
 using TMPro;
 
 public class GameScene : MonoBehaviour
@@ -40,6 +41,27 @@ public class GameScene : MonoBehaviour
     [SerializeField]
     private GameObject resultPanel;
 
+    [SerializeField]
+    private Image resultPanelImage;
+    [SerializeField]
+    private Sprite resultWinSprite;
+    [SerializeField]
+    private Sprite resultLoseSprite;
+    [SerializeField]
+    private TextMeshProUGUI unit_deployed_text;
+    [SerializeField]
+    private TextMeshProUGUI killed_enemies_text;
+    [SerializeField]
+    private TextMeshProUGUI rank_text;
+
+    private float currentHp;
+    private int enemiesKilled;
+
+    public float timeFast = 1f;
+    private void Update()
+    {
+        Time.timeScale = timeFast;
+    }
 
     private void Awake()
     {
@@ -74,6 +96,7 @@ public class GameScene : MonoBehaviour
     private void OnEnable()
     {
         EventManager.StartListening("UpdateHP", OnUpdateHP);
+        EventManager.StartListening("EnemyDie", CountEnemyKilled);
     }
     private void OnDisable()
     {
@@ -97,6 +120,8 @@ public class GameScene : MonoBehaviour
         float _hp = (float)hp;
         hpFill.fillAmount = _hp / 100;
         hp_Text.text = _hp.ToString();
+
+        currentHp = _hp;
     }
 
     private void GoToMainMenu()
@@ -121,12 +146,41 @@ public class GameScene : MonoBehaviour
         if(condition == "win")
         {
             nextButton.gameObject.SetActive(true);
+            resultPanelImage.sprite = resultWinSprite;
+            int _unit = FindObjectOfType<TowerManager>().TowerDeployed;
+            unit_deployed_text.text = _unit.ToString();
+            killed_enemies_text.text = enemiesKilled.ToString();
+            rank_text.text = CheckRank(currentHp);
         }
 
         if(condition == "lose")
         {
             nextButton.gameObject.SetActive(false);
+            resultPanelImage.sprite = resultLoseSprite;
+            int _unit = FindObjectOfType<TowerManager>().TowerDeployed;
+            unit_deployed_text.text = _unit.ToString();
+            killed_enemies_text.text = enemiesKilled.ToString();
+            rank_text.text = "F";
         }
+    }
+    private string CheckRank(float HP)
+    {
+        if (HP <= 100 && HP >= 91)
+            return "S";
+        else if (HP >= 76 && HP <= 90)
+            return "A";
+        else if (HP >= 61 && HP <= 75)
+            return "B";
+        else if (HP >= 46 && HP <= 60)
+            return "C";
+        else if (HP >= 31 && HP <= 45)
+            return "D";
+        else
+            return "F";
+    }
+    private void CountEnemyKilled(object n)
+    {
+        enemiesKilled++;
     }
 
     private void ShowPause()
