@@ -57,12 +57,6 @@ public class GameScene : MonoBehaviour
     private float currentHp;
     private int enemiesKilled;
 
-    public float timeFast = 1f;
-    private void Update()
-    {
-        Time.timeScale = timeFast;
-    }
-
     private void Awake()
     {
         pauseButton.onClick.RemoveAllListeners();
