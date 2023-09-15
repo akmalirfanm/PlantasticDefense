@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameScene : MonoBehaviour
 {
+    [SerializeField]
+    private TextMeshProUGUI hp_Text;
+
     [SerializeField]
     private Image hpFill;
 
@@ -92,6 +96,7 @@ public class GameScene : MonoBehaviour
     {
         float _hp = (float)hp;
         hpFill.fillAmount = _hp / 100;
+        hp_Text.text = _hp.ToString();
     }
 
     private void GoToMainMenu()

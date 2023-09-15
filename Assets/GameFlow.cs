@@ -41,7 +41,10 @@ public class GameFlow : MonoBehaviour
         EventManager.StopListening("CheckWinLose", CheckWinLoseCondition);
         EventManager.StopListening("DecreaseHP", DecreaseHp);
     }
-
+    private void Start()
+    {
+        EventManager.TriggerEvent("UpdateHP", playerHP);
+    }
     public void AddSpawnedEnemyCount()
     {
         EnemySpawnedCounter += 1;
