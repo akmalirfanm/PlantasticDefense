@@ -76,8 +76,8 @@ namespace Plantastic.Module_TowerShop
                 
             }
             _shopUI.priceUpgrade = v[towerList[i].currentVersion].price;
-            Debug.Log("CurrentVersion : " + towerList[i].currentVersion);
-            Debug.Log("Price Upgrade : " + _shopUI.priceUpgrade);
+            //Debug.Log("CurrentVersion : " + towerList[i].currentVersion);
+            //Debug.Log("Price Upgrade : " + _shopUI.priceUpgrade);
             _shopUI.SetUpText(false);
 
         }
