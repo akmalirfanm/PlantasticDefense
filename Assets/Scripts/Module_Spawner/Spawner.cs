@@ -17,7 +17,7 @@ namespace Plantastic.Module_Spawner
 
 		[SerializeField]
         private float delaySpawn;
-        private float countdown = 1f;
+        private float countdown = 0f;
 		[SerializeField]
 		private float enemyDelay;
 
@@ -29,6 +29,8 @@ namespace Plantastic.Module_Spawner
 		TextMeshProUGUI waveText;
 		[SerializeField]
 		GameObject BG;
+		[SerializeField]
+		private GameObject trail;
 
 		[SerializeField]
 		private GameFlow gameFlow;
@@ -52,23 +54,26 @@ namespace Plantastic.Module_Spawner
 		}
 		IEnumerator SpawnWave()
         {
-			if (totalWave >= waveIndex)
+			if (trail.activeInHierarchy == false)
             {
-				for (int i = 0; i < waveIndex; i++)
+				if (totalWave >= waveIndex)
 				{
-					SpawnEnemy();
-					StartCoroutine(WaveSpawnText(waveIndex));
-					gameFlow.SetCurrentWave(waveIndex);
-					yield return new WaitForSeconds(enemyDelay);
-					
+					for (int i = 0; i < waveIndex; i++)
+					{
+						SpawnEnemy();
+						StartCoroutine(WaveSpawnText(waveIndex));
+						gameFlow.SetCurrentWave(waveIndex);
+						yield return new WaitForSeconds(enemyDelay);
+
+					}
+					waveIndex++;
+
 				}
-				waveIndex++;
-				
+				else
+				{
+					//	waveIndex = 1;
+				}
 			}
-			else
-            {
-			//	waveIndex = 1;
-            }
 			
         }
 
