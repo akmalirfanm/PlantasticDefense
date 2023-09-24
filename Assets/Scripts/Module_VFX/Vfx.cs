@@ -8,6 +8,7 @@ namespace Plantastic.Module_VFX
     [System.Serializable]
     public class Vfx
     {
+        public string name;
         public VfxObject visualPref;
         PoolingSystem pool = new PoolingSystem();
         public GameObject CreateObject(Vector3 pos)

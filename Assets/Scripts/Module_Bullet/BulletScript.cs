@@ -23,6 +23,10 @@ public class BulletScript : BaseBullet
                 Enemy = other.GetComponent<EnemyBasic>();
                 Enemy.GetDamage(damagePower, stuntDuration, slowDuration);
                 Destroy(gameObject);
+                if (nameOfTower == "basic")
+                    EventManager.TriggerEvent("SFXMessage", "Basic Hit");
+                else if(nameOfTower == "slow")
+                    EventManager.TriggerEvent("SFXMessage", "Slow Hit");
             }
         }
     }

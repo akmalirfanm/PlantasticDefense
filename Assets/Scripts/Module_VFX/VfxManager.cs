@@ -10,11 +10,16 @@ namespace Plantastic.Module_VFX
         [SerializeField]
         private Vfx[] visualEffect;
 
+        public Transform wayPoint;
+
         string nameOfVfx;
 
-        private void Start()
+        private void Update()
         {
-
+            string _name = "enemies_dead";
+            Vector3 pos = wayPoint.position;
+            EventManager.TriggerEvent("OnPlayVfxName", _name);
+            EventManager.TriggerEvent("OnPlayVfxPos", pos);
         }
         private void OnEnable()
         {
@@ -33,7 +38,7 @@ namespace Plantastic.Module_VFX
         void PlayVfx(object pos)
         {
             pos = (Vector3)pos;
-            Vfx v = Array.Find(visualEffect, vfx => vfx.visualPref.name == nameOfVfx);
+            Vfx v = Array.Find(visualEffect, vfx => vfx.name == nameOfVfx);
             v.CreateObject((Vector3)pos).transform.SetParent(this.transform);
         }
     }

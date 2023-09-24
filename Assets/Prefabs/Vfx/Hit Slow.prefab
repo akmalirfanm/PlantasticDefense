@@ -9905,6 +9905,7 @@ GameObject:
   - component: {fileID: 5112403345868107844}
   - component: {fileID: 5112403345868107899}
   - component: {fileID: 5112403345868107846}
+  - component: {fileID: -5535398440150043141}
   m_Layer: 0
   m_Name: Hit Slow
   m_TagString: Untagged
@@ -14799,6 +14800,18 @@ MonoBehaviour:
     perlinColor: 0
     perlinColorSpeed: 1
   fadeOutReference: {fileID: 0}
+--- !u!114 &-5535398440150043141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5112403345868107898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b12e010a939594439878ac0af8f0a13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5112403347238810573
 GameObject:
   m_ObjectHideFlags: 0

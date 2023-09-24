@@ -25,6 +25,10 @@ public class BulletAOE : BaseBullet
             {
                 other.GetComponent<EnemyBasic>().GetDamage(0, stuntDuration, 0);
                 aoeEffect.GetComponent<AOEEffect>().StartAOEEffect(damagePower, 0, slowDuration);
+                if (nameOfTower == "aoe")
+                    EventManager.TriggerEvent("SFXMessage", "Aoe Hit");
+                else if (nameOfTower == "slow")
+                    EventManager.TriggerEvent("SFXMessage", "Slow Hit");
             }
         }
     }

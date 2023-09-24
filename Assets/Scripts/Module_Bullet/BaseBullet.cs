@@ -4,6 +4,7 @@ using UnityEngine;
 
 public abstract class BaseBullet : MonoBehaviour
 {
+    public string nameOfTower;
     public Transform targetEnemy;
     public float damagePower;
     public float stuntDuration;

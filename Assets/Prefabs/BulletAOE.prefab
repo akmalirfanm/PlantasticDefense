@@ -61,6 +61,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe3f57d7c74f17545a3aee01d384f8eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameOfTower: aoe
   targetEnemy: {fileID: 0}
   damagePower: 0.5
   stuntDuration: 0

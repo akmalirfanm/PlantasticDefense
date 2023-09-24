@@ -663,6 +663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 4
   healthBarEnemy: {fileID: 1931212218}
+  nameOfEnemy: Enemy 2
   basicSpeed: 1
   basicHP: 30
   basicResource: 2

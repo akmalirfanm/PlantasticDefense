@@ -8,6 +8,8 @@ namespace Plantastic.Module_Enemy
 {
     public class EnemyBasic : BaseEnemy
     {
+        public string nameOfEnemy;
+
         ResourceHandle handle;
 
         [SerializeField]
@@ -39,7 +41,11 @@ namespace Plantastic.Module_Enemy
             {
                 EventManager.TriggerEvent("EnemyDie", null);
                 speed = basicSpeed;
-                EventManager.TriggerEvent("SFXMessage", "Stun");
+                //EventManager.TriggerEvent("SFXMessage", "Stun");
+                if(nameOfEnemy == "Boss")
+                    EventManager.TriggerEvent("SFXMessage", "Boss Death");
+                else
+                    EventManager.TriggerEvent("SFXMessage", "Death");
                 Resource.Instance.AddResource(basicResource);
                 healthBarEnemy.fillAmount = basicHP;
                 StoreToPool();
