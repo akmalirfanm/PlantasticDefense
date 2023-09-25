@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/hills lv1/Trailer.unity
+    guid: 1fee614c1503bf543abecff51d815e18
+  - enabled: 1
     path: Assets/Scenes/Home.unity
     guid: bf7122f52f9e94e4f9552cc50e5b5987
   - enabled: 1
     path: Assets/Scenes/StageSelect.unity
     guid: 7d965cf1a1e86e5458ce7559e52f478c
-  - enabled: 1
-    path: Assets/Scenes/hills lv1/Trailer.unity
-    guid: 1fee614c1503bf543abecff51d815e18
   - enabled: 1
     path: Assets/Scenes/hills lv1/hills.unity
     guid: a3ccd52303d361546b417a3db8f6ed8b

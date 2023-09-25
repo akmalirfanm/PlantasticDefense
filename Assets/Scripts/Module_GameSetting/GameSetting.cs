@@ -36,8 +36,6 @@ namespace Plantastic.Module_GameSetting
             LoadData();
             EventManager.StartListening("SwitchBgmValueMessage", onSwitchBgmValue);
             EventManager.StartListening("SwitchSfxValueMessage", onSwitchSfxValue);
-            Debug.Log("BGM status: " + isBgmOn);
-            Debug.Log("SFX status: " + isSfxOn);
         }
 
         private void OnDisable()
