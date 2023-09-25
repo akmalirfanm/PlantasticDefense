@@ -32,12 +32,11 @@ namespace Plantastic.Module_Spawner
         }
         private void GetNextWaypoint()
         {
+            waypointIndex++;
             if (waypointIndex >= FindObjectOfType<EnemyWayPoints>().waypoints.Length - 1)
             {
                 gameObject.SetActive(false);
             }
-
-            waypointIndex++;
             target = FindObjectOfType<EnemyWayPoints>().waypoints[waypointIndex];
         }
     }

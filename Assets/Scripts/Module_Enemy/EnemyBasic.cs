@@ -43,9 +43,19 @@ namespace Plantastic.Module_Enemy
                 speed = basicSpeed;
                 //EventManager.TriggerEvent("SFXMessage", "Stun");
                 if(nameOfEnemy == "Boss")
+                {
                     EventManager.TriggerEvent("SFXMessage", "Boss Death");
+                    EventManager.TriggerEvent("OnPlayVfxName", "Boss Dead");
+                    Vector3 _pos = new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z);
+                    EventManager.TriggerEvent("OnPlayVfxPos", _pos);
+                }
                 else
+                {
                     EventManager.TriggerEvent("SFXMessage", "Death");
+                    EventManager.TriggerEvent("OnPlayVfxName", "Enemies Dead");
+                    Vector3 _pos = new Vector3(transform.position.x, transform.position.y + 0.5f, transform.position.z);
+                    EventManager.TriggerEvent("OnPlayVfxPos", _pos);
+                }
                 Resource.Instance.AddResource(basicResource);
                 healthBarEnemy.fillAmount = basicHP;
                 StoreToPool();

@@ -24,9 +24,19 @@ public class BulletScript : BaseBullet
                 Enemy.GetDamage(damagePower, stuntDuration, slowDuration);
                 Destroy(gameObject);
                 if (nameOfTower == "basic")
+                {
                     EventManager.TriggerEvent("SFXMessage", "Basic Hit");
-                else if(nameOfTower == "slow")
-                    EventManager.TriggerEvent("SFXMessage", "Slow Hit");
+                    EventManager.TriggerEvent("OnPlayVfxName", "Hit Basic");
+                    Vector3 _pos = new Vector3(other.transform.position.x, other.transform.position.y + 0.5f, other.transform.position.z);
+                    EventManager.TriggerEvent("OnPlayVfxPos", _pos);
+                }
+                else if (nameOfTower == "slow")
+                {
+                    EventManager.TriggerEvent("SFXMessage", "Stun Hit");
+                    EventManager.TriggerEvent("OnPlayVfxName", "Hit Stun");
+                    Vector3 _pos = new Vector3(other.transform.position.x, other.transform.position.y + 0.5f, other.transform.position.z);
+                    EventManager.TriggerEvent("OnPlayVfxPos", _pos);
+                }
             }
         }
     }

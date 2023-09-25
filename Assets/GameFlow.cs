@@ -24,6 +24,10 @@ public class GameFlow : MonoBehaviour
     [SerializeField]
     private GameScene gamescene;
 
+    [SerializeField]
+    private GameObject vfxHp50;
+    private float maxHP;
+
 
     private void OnEnable()
     {
@@ -42,6 +46,8 @@ public class GameFlow : MonoBehaviour
     private void Start()
     {
         EventManager.TriggerEvent("UpdateHP", playerHP);
+        maxHP = playerHP;
+        vfxHp50.SetActive(false);
     }
     public void AddSpawnedEnemyCount()
     {
@@ -101,5 +107,9 @@ public class GameFlow : MonoBehaviour
         float hp = (float)data;
         playerHP -= hp;
         EventManager.TriggerEvent("UpdateHP", playerHP);
+        if (playerHP <= (maxHP * 0.5))
+            vfxHp50.SetActive(true);
+
+
     }
 }
