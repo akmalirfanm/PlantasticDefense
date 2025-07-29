@@ -75,6 +75,15 @@ namespace Plantastic.Module_GameSetting
 
         private void LoadData()
         {
+            if(PlayerPrefs.HasKey("BGM") == false)
+            {
+                PlayerPrefs.SetInt("BGM", 1); // Default BGM on
+            }
+
+            if(PlayerPrefs.HasKey("SFX") == false)
+            {
+                PlayerPrefs.SetInt("SFX", 1); // Default BGM on
+            }
             int bgmDataHolder = PlayerPrefs.GetInt("BGM");
             if (bgmDataHolder == 1)
             {

@@ -1423,7 +1423,7 @@ MonoBehaviour:
   stage2Button: {fileID: 1719399149}
   backButton: {fileID: 637509474}
   stage1NameScene: dessert
-  stage2NameScene: hills
+  stage2NameScene: Trailer
 --- !u!1 &1350506922
 GameObject:
   m_ObjectHideFlags: 0
