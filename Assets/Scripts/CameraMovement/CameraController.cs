@@ -44,11 +44,11 @@ public class CameraController : MonoBehaviour
 
                         if (hit.collider != null && !EventSystem.current.IsPointerOverGameObject())
                         {
-                             if(hit.collider.gameObject.tag == "Tower Placement" || hit.collider.gameObject.tag == "Ground")
+                             //if(hit.collider.gameObject.tag == "Tower Placement" || hit.collider.gameObject.tag == "Ground")
                             canPan = true;
                         }
 
-                if (hit.collider == null || hit.collider.gameObject.tag != "Tower Placement" || hit.collider.gameObject.tag == "Ground")
+                if (hit.collider == null)
                 {
                     canPan = false;
                 }
