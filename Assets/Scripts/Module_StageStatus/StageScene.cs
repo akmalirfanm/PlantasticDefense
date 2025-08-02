@@ -29,7 +29,7 @@ namespace Plantastic.Module_StageStatus
         {
             backButton.onClick.AddListener(BackButton);
             stage1Button.onClick.AddListener(() => SceneManager.LoadScene(stage1NameScene));
-            stage1Button.onClick.AddListener(() => SceneManager.LoadScene(stage2NameScene));
+            stage2Button.onClick.AddListener(() => SceneManager.LoadScene(stage2NameScene));
         }
     }
 }
